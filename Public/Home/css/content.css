@@ -1,0 +1,118 @@
+.pro-footer {
+    padding: 47px 38px;
+
+}
+.pro-footer span {
+    display: inline-block;
+    color: #666;
+    line-height: 20px;
+}
+.pro-footer a {
+    color: #666;
+}
+.pro-footer span:hover {
+    color: #ff5a00;
+}
+.pro-footer a:hover {
+    color: #ff5a00;
+}
+.pro-middle .cI {
+    line-height: 24px;
+    color: #000;
+    padding: 20px 40px 0 40px;
+
+}
+.proText {
+    height: 116px;
+}
+.textTitle {
+    text-align: center;
+}
+.pro-header h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.pro-img {
+    padding: 10px 38px;
+    background: #fff;
+    position: relative;
+}
+.pro-middle {
+    padding-top: 20px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 0;
+    background: #fff;
+}
+.pro-middle p img {
+    width:100%;
+}
+.pro-middle p {
+    padding: 10px 0;
+    line-height: 25px;
+}
+.pro-middle p:last-child {
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.iconfont.icon-iconfont0103 {
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-left: -33px;
+    margin-top: -33px;
+}
+/*����*/
+.fenXiang {
+    overflow: hidden;
+    padding-top: 55px;
+    padding-bottom: 145px;
+}
+.fX {
+    width: 400px;
+}
+.bdsharebuttonbox {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+.bdsharebuttonbox a {
+    width: 34px !important;
+    height: 34px !important;
+    background-position: 0 !important;
+    position: relative;
+    margin-right: 20px !important;
+    top: -12px;
+    left: 6%;
+}
+.bds_tsina {
+    background-image: url(../img/images/weibo.png) !important;
+}
+.bds_weixin {
+    background-image: url(../img/images/weixin.png) !important;
+}
+.bds_sqq {
+    background-image: url(../img/images/QQ.png) !important;
+}
+#countyVideo {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    #dynamicColumn {
+        display: none;
+    }
+    /*.img-responsive {
+        margin-top: 0;
+    }*/
+}
+.vjs-big-play-centered .vjs-big-play-button {
+    width: 47px;
+    height: 47px;
+    left: 54%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}

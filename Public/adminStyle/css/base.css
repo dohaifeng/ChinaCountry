@@ -1,0 +1,67 @@
+html, body, div, span, object,li,ul,img iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 100%;
+    font-family: "Inconsolata","微软雅黑","华文细黑", \5B8B\4F53, arial, sans-serif;
+    color: #000000;
+}
+html {
+    height: 100%;
+}
+body{
+
+}
+.wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.blWrap{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+   overflow: hidden;
+}
+
+ol, ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+em, i {
+    font-style: normal;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+img {border-width: 0px 0px 0px 0px}
+img:hover {
+    border:0px solid #f00;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color: rgb(0,0,255);
+}
+
+
+span,a::selection{
+
+}
+
+

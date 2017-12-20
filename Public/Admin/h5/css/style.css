@@ -1,0 +1,434 @@
+.index {
+  background: #23ffd2;
+  padding: 0.5rem;
+  height: 100vh;
+  overflow: hidden;
+}
+.index .musicBox {
+  width: 1.1rem;
+  height: 1.1rem;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  z-index: 90;
+}
+.index .musicBox #music-audio {
+  display: none;
+}
+.index .musicBox .music {
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url("../imgs/music.png");
+  background-size: cover;
+  -webkit-animation: 2s rotateAn linear infinite;
+  -o-animation: 2s rotateAn linear infinite;
+  animation: 2s rotateAn linear infinite;
+}
+.index .musicBox .musicbg {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: url("../imgs/musicfly.gif");
+  background-size: cover;
+  z-index: 99;
+  top: -0.45rem;
+  left: -0.45rem;
+  opacity: 1;
+  -webkit-transition: 0.5s ;
+  -moz-transition: 0.5s ;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s ;
+  transition: 0.5s;
+}
+.index .close .music {
+  -webkit-animation: 2s  linear infinite;
+  -o-animation: 2s  linear infinite;
+  animation: 2s  linear infinite;
+}
+.index .close .musicbg {
+  opacity: 0;
+}
+.index .content {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../imgs/fly.gif") center no-repeat #000000;
+  position: relative;
+  z-index: 5;
+}
+.index .content .titleGroup {
+  position: relative;
+  z-index: 4;
+  padding-top: 5vh;
+}
+.index .content .titleGroup h1,
+.index .content .titleGroup h3 {
+  color: #23ffd2;
+  text-align: center;
+}
+.index .content .titleGroup h1 {
+  font-size: 2rem;
+}
+.index .content .titleGroup h3 {
+  margin-top: 2.94vh;
+}
+.index .content #head {
+  height: 59.375vh;
+  position: relative;
+  z-index: 3;
+}
+.index .content #head .logo {
+  width: 5.15rem;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: 1.2s logoAn linear infinite alternate;
+  -o-animation: 1.2s logoAn linear infinite alternate;
+  animation: 1.2s logoAn linear infinite alternate;
+}
+.index .content #head .logo img {
+  width: 5.15rem;
+}
+.index .content #head .logoBg {
+  width: 13.5rem;
+  margin: -2.3rem 0 0 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+.index .content #head .logoBg img:nth-of-type(1) {
+  width: 13.5rem;
+  height: 17rem;
+}
+.index .content #head .logoBg img:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.index .content footer {
+  position: relative;
+  z-index: 5;
+}
+.index .content #date {
+  width: 10.4rem;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.index .content #date > div {
+  float: left;
+  width: 4.2rem;
+}
+.index .content #date > div p {
+  color: white;
+  text-align: center;
+}
+.index .content #date > div p span {
+  color: white;
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.index .content #date > div p:nth-of-type(1) {
+  font-size: 0.625rem;
+}
+.index .content #date > div p:nth-of-type(2) {
+  font-size: 0.55rem;
+}
+.index .content #date > div:nth-of-type(2) {
+  width: 2rem;
+  height: 0.625rem;
+  position: relative;
+}
+.index .content #date > div:nth-of-type(2) span {
+  width: 0.7rem;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  background: white;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.index .content .name {
+  position: absolute;
+  top: 2rem;
+}
+.index .content .name p {
+  width: 15rem;
+  font-size: 0.5rem;
+  color: #36fed5;
+  text-align: center;
+}
+.index .content ul {
+  width: 11.2rem;
+  top: 4rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.index .content ul li {
+  color: white;
+  font-size: 0.6rem;
+  float: left;
+  padding-right: 2rem;
+}
+.index .content ul li:last-child {
+  padding-right: 0;
+}
+.index .content ul .active {
+  color: #23ffd2;
+}
+.index form {
+  width: 8.875rem;
+  height: 10.5rem;
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 50%;
+  background: #000000;
+  position: absolute;
+  z-index: 998;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+  -moz-transform: translate(-50%, -50%) scale(0);
+  -ms-transform: translate(-50%, -50%) scale(0);
+  -o-transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
+  -webkit-animation: 0.5s 5s formShow linear forwards;
+  -o-animation: 0.5s 5s formShow linear forwards;
+  animation: 0.5s 5s formShow linear forwards ;
+}
+.index form .formTitle {
+  height: 1.875rem;
+  width: 100%;
+  line-height: 1.875rem;
+  color: white;
+  text-align: center;
+  font-size: 0.675rem;
+  padding: 0 0.875rem;
+}
+.index form input,
+.index form textarea {
+  background: white;
+  border: none;
+  width: 6.25rem;
+  display: block;
+  margin: 0 auto 0.25rem;
+  padding: 0 0.5rem;
+  font-size: 0.575rem;
+  color: black;
+}
+.index form input {
+  height: 1.25rem;
+  line-height: 1.25rem;
+}
+.index form #submit {
+  margin-top: 0.6rem;
+  width: 4.4rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-weight: 900;
+  background: #23ffd2;
+}
+.index form textarea {
+  height: 3.5rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0;
+}
+.index .formAN {
+  -webkit-animation: 0.5s formShow linear forwards;
+  -o-animation: 0.5s  formShow linear forwards;
+  animation: 0.5s  formShow linear forwards ;
+}
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background: url("../imgs/page2-02.png") top;
+  background-size: cover;
+  overflow: hidden;
+}
+@keyframes rotateAn {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotateAn {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotateAn {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateAn2 {
+  0% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes rotateAn2 {
+  0% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-o-keyframes rotateAn2 {
+  0% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes logoAn {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes logoAn {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes logoAn {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes formShow {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    -moz-transform: translate(-50%, -50%) scale(0);
+    -ms-transform: translate(-50%, -50%) scale(0);
+    -o-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@-webkit-keyframes formShow {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    -moz-transform: translate(-50%, -50%) scale(0);
+    -ms-transform: translate(-50%, -50%) scale(0);
+    -o-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@-o-keyframes formShow {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    -moz-transform: translate(-50%, -50%) scale(0);
+    -ms-transform: translate(-50%, -50%) scale(0);
+    -o-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

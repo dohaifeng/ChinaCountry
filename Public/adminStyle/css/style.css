@@ -1,0 +1,4887 @@
+.iAll {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.top {
+  width: 100vw;
+  height: 50px;
+  background: #0099cc;
+}
+.top .appName {
+  margin-left: 45px;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.top .user {
+  width: auto;
+  float: right;
+  height: 55px;
+  padding: 0 40px 0 0;
+}
+.top .user li {
+  float: left;
+  line-height: 55px;
+  color: #ffffff;
+  cursor: pointer;
+  padding-right: 20px;
+  font-size: 14px;
+}
+.top .user li:nth-of-type(1):before {
+  font-family: Flat-UI-Pro-Icons;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  content: "\e631";
+}
+.popover {
+  height: 40px;
+  
+  background: #6b7786 !important;
+  display: none;
+}
+.popover .popover-content {
+  color: white;
+  font-size: 14px;
+  padding: 0 20px;
+  line-height: 40px;
+}
+.popover .arrow:after {
+  border-right-color: #6b7786 !important;
+}
+.navItems{
+  width:52px;
+  height: 40px;
+  position: absolute;
+  z-index: 11;
+  display: none;
+}
+
+.hLeft {
+  width: 180px !important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  min-height: 100vh;
+  background: #22282e;
+  float: left;
+  overflow-y: hidden;
+}
+.hLeft ul {
+  margin-bottom: 0;
+}
+.hLeft > div,
+.hLeft li,
+.hLeft ul {
+  width: 100%;
+}
+.hLeft .navBtn {
+  height: 30px;
+  line-height: 30px;
+  background: #3f4a57;
+}
+
+.hRight {
+  position: absolute;
+  left: 230px;
+  top: 55px;
+  width: 100%;
+  min-height: 100vh;
+  /*商品列表 start*/
+  /*商品列表 end*/
+  /*管理分类 start*/
+  /*管理分类 end*/
+  /*添加分类 start*/
+  /*添加分类 end*/
+  /*编辑分类 start*/
+  /*编辑分类 start*/
+  /*添加子分类 start*/
+  /*添加子分类 end*/
+  /*管理品牌 start*/
+  /*管理品牌 end*/
+  /*添加品牌 start*/
+  /*添加品牌 end*/
+  /*所有订单 start*/
+  /*所有订单 end*/
+  /*订单详情 start*/
+  /*订单详情 end*/
+  /*批量发货 start*/
+  /*批量发货 end*/
+  /*售后管理 start*/
+  /*售后管理 end*/
+  /*晒单评价 start*/
+  /*晒单评价 end*/
+  /*会员管理 start*/
+  /*会员管理 end*/
+  /*编辑会员 start*/
+  /*编辑会员 end*/
+  /*积分管理 start*/
+  /*积分管理 end*/
+  /*余额管理 start 样式与积分管理一样*/
+  /*余额管理 end*/
+  /*会员等级 start*/
+  /*会员等级 end*/
+  /*新建等级 start*/
+  /*新建等级 end*/
+  /*优惠券管理 start*/
+  /*优惠券管理 end*/
+  /*添加/编辑优惠券 start*/
+  /*添加/编辑优惠券 end*/
+  /*优惠券发放管理 start*/
+  /*优惠券发放管理 end*/
+  /*促销免运费管理 start*/
+  /*促销免运费管理 end*/
+  /*添加促销免运费 start*/
+  /*添加促销免运费 end*/
+  /*广告列表 start*/
+  /*广告列表 end*/
+  /*添加广告 和添加/编辑优惠券的样式相同 start*/
+  /*添加广告 end*/
+  /*编辑广告 添加广告 和添加/编辑优惠券的样式相同 start*/
+  /*编辑广告 end*/
+  /*广告位置 start*/
+  /*广告位置 end*/
+  /*添加广告位 start*/
+  /*添加广告位 end*/
+  /*文章管理 start*/
+  /*文章管理 end*/
+  /*添加文章 start*/
+  /*添加文章 end*/
+  /*编辑文章 start*/
+  /*编辑文章 end*/
+  /*管理分类 start*/
+  /*管理分类 end*/
+  /*添加分类 start*/
+  /*添加分类 end*/
+  /*编辑分类 start*/
+  /*编辑分类 end*/
+  /*添加子分类 start*/
+  /*添加子分类 end*/
+  /*生意报告 start*/
+  /*生意报告 end*/
+  /*订单统计 start*/
+  /*订单统计 end*/
+  /*商品销售明细 start*/
+  /*商品销售明细 end*/
+  /*销售指标分析 start*/
+  /*销售指标分析 end*/
+  /*商品销售排行 start*/
+  /*商品销售排行 end*/
+  /*商品访问与购买比 start*/
+  /*商品访问与购买比 end*/
+  /*会员销售排行 start*/
+  /*会员销售排行 end*/
+  /*商城基础设置 start*/
+  /*商城基础设置 end*/
+  /*支付设置 start*/
+  /*支付设置 end*/
+  /*支付宝配置 start*/
+  /*支付宝配置 end*/
+  /*配送设置 支付设置 start*/
+  /*配送设置 支付设置 end*/
+  /*顺丰-配送区域管理 start*/
+  /*顺丰-配送区域管理 end*/
+  /*添加配送设置 start*/
+  /*添加配送设置 end*/
+  /*配送区域管理 start*/
+  /*配送区域管理 end*/
+  /*邮件推送模版设置 配送设置 start*/
+  /*邮件推送模版设置 配送设置 end*/
+  /*邮件服务器设置 start*/
+  /*邮件服务器设置 end*/
+  /*新增邮件推送模版设置 start*/
+  /*新增邮件推送模版设置 end*/
+  /*订单提交成功邮件设置 start*/
+  /*订单提交成功邮件设置 end*/
+  /*取消订单邮件设置 start*/
+  /*取消订单邮件设置 end*/
+  /*发货通知邮件设置 start*/
+  /*发货通知邮件设置 end*/
+  /*微信支付配置 start*/
+  /*微信支付配置 end*/
+  /*短信服务器设置 start*/
+  /*短信服务器设置 end*/
+  /*新增短信推送模版设置 start*/
+  /*新增短信推送模版设置 end*/
+  /*编辑短信模板 start*/
+  /*编辑短信模板 end*/
+  /*微信设置 start*/
+  /*微信设置 end*/
+  /*微信菜单管理 start*/
+  /*微信菜单管理 end*/
+  /*添加规则 start*/
+  /*添加规则 end*/
+  /*快速关注设置 start*/
+  /*快速关注设置 end*/
+  /*修改密码 start*/
+  /*修改密码 end*/
+  /*管理员日志 start*/
+  /*管理员日志 end*/
+  /*管理员列表 start*/
+  /*管理员列表 end*/
+  /*添加管理员 start*/
+  /*添加管理员 end*/
+  /*用户组管理 start*/
+  /*用户组管理 end*/
+  /*添加用户组 start*/
+  /*添加用户组 end*/
+  /*弹出框 start*/
+  /*弹出框 end*/
+}
+.hRight .rightTop {
+  height: 45px;
+  background: #d9dee4 !important;
+}
+.hRight .rightTop ul {
+  margin-bottom: 0;
+  height: 45px;
+  margin-left: 28px;
+}
+.hRight .rightTop ul li {
+  height: 45px;
+  display: inline-block;
+}
+.hRight .rightTop ul li a {
+  font-size: 14px;
+  color: black;
+  line-height: 45px;
+  display: block;
+  height: 45px;
+}
+.hRight .rightTop ul li a:after {
+  content: ">";
+  padding: 0 20px;
+  color: black;
+}
+
+.hRight .rightTop ul li:last-child a:after {
+  content: "";
+}
+.hRight .rightTop li a {
+  font-size: 14px;
+  color: black;
+  line-height: 45px;
+}
+.hRight .rightTop li a:after {
+  content: ">";
+  color: black;
+}
+.hRight .content .spTable .spList {
+  padding: 15px 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eeeeee;
+}
+.hRight .content .spTable .spList span {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+}
+.hRight .content .spTable .spList a {
+  margin: -5px 0 0 0;
+  background-color: #1abc9c;
+}
+.hRight .content .spTable .select {
+  padding-left: 20px;
+  width: 100%;
+  height: 66px;
+  margin-top: 20px;
+}
+.hRight .content .spTable .select .has-success {
+  margin-top: 11px;
+  width: 182px;
+  height: 44px;
+  float: left;
+  margin-right: 40px;
+}
+.hRight .content .spTable .select .has-success .input-lg {
+  font-size: 14px !important;
+}
+.hRight .content .spTable .select .has-success .input-sp {
+  width: 164px;
+}
+.hRight .content .spTable .select .input-group {
+  float: left;
+  height: 44px;
+  margin-left: 80px;
+  width: 180px;
+}
+.hRight .content .spTable .select .input-group .search {
+  width: 220px;
+  height: 45px;
+  font-size: 14px;
+  margin-top: 11px;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
+}
+.hRight .content .spTable .select .input-group .input-group-btn .btn {
+  height: 45px;
+  border: 2px solid #2ecc71;
+  border-left: 0;
+}
+.hRight .content .spTable .select .input-group .input-group-btn .btn .fui-search {
+  color: #2ecc71;
+}
+.hRight .content .spTable .select .btn {
+  margin-top: 11px;
+}
+.hRight .content .spTable .table {
+  padding: 15px 0 0 20px;
+  width: 91%;
+  margin-right: 30px;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td {
+  font-size: 12px;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 4%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 4%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(2) {
+  width: 11%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 11%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(3) {
+  width: 14%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 14%;
+  padding: 10px;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(4) {
+  width: 6%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 6%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(5) {
+  width: 5%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 5%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(6) {
+  width: 5%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 5%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(7) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr:nth-of-type(1) td:nth-child(7) a {
+  background: #6633FF;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr:nth-of-type(2) td:nth-child(7) a {
+  background: #F09;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(8) {
+  width: 18%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 18%;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(8) a {
+  background: #2ecc71;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(9) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(9) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr:nth-of-type(1) td:nth-child(9) a {
+  background: #6633FF;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr:nth-of-type(2) td:nth-child(9) a {
+  background: #A1A1A1;
+}
+.hRight .content .spTable .table .table-bordered > thead > tr > th:nth-child(10) {
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(10) {
+  text-align: center;
+}
+.hRight .content .spTable .table .table-bordered > tbody > tr > td:nth-child(10) a {
+  background: #1abc9c;
+}
+.hRight .content .spTable .table .table > thead > tr > th,
+.hRight .content .spTable .table .table > tbody > tr > th,
+.hRight .content .spTable .table .table > tfoot > tr > th,
+.hRight .content .spTable .table .table > thead > tr > td,
+.hRight .content .spTable .table .table > tbody > tr > td,
+.hRight .content .spTable .table .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .spTable .footer {
+  padding-left: 20px;
+}
+.hRight .content .spTable .footer .form-group {
+  width: 182px;
+  float: left;
+  margin-right: 40px;
+}
+.hRight .content .spTable .footer .form-group .input-ck {
+  width: 164px;
+  font-size: 12px;
+}
+.hRight .content .spTable .footer .form-group .input-lg {
+  font-size: 14px;
+}
+.hRight .content .spTable .footer .f-info {
+  float: right;
+  margin-right: 240px;
+  font-size: 14px;
+}
+.hRight .content .spTable .footer .f-info .f-filp {
+  float: left;
+}
+.hRight .content .spTable .footer .f-info .f-filp a {
+  font-size: 14px;
+}
+.hRight .content .spTable .footer .f-info .has-success {
+  width: 53px;
+  float: rigth;
+  margin-left: 10px;
+}
+.hRight .content .spTable .footer .f-info .has-success select {
+  height: 20px;
+  font-size: 12px;
+  min-height: 24px;
+  padding: 2px 0 2px 5px;
+}
+.hRight .content .classification {
+  width: 90%;
+}
+.hRight .content .classification .magLogo {
+  padding: 10px 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eeeeee;
+}
+.hRight .content .classification .magLogo span {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+}
+.hRight .content .classification .magLogo a {
+  margin: -5px 0 0 0;
+  background-color: #1abc9c;
+}
+.hRight .content .classification .table {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td .mlm {
+  margin: 0 5px;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td a {
+  padding: 10px 14px;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td .mlm-btn {
+  width: 86px ;
+  height: 32px;
+  font-size: 12px;
+  padding: 0;
+}
+.hRight .content .classification .table .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .classification .table .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 8%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 8%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > thead > tr > th:nth-child(2) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > thead > tr > th:nth-child(3) {
+  width: 23%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 23%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > thead > tr > th:nth-child(4) {
+  width: 22%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 22%;
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-child(4) a {
+  background: #2ecc71;
+}
+.hRight .content .classification .table .table-bordered > thead > tr > th:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .classification .table .table-bordered > tbody > tr > td:nth-child(5) a {
+  background: #1abc9c;
+}
+.hRight .content .classification .table .table > thead > tr > th,
+.hRight .content .classification .table .table > tbody > tr > th,
+.hRight .content .classification .table .table > tfoot > tr > th,
+.hRight .content .classification .table .table > thead > tr > td,
+.hRight .content .classification .table .table > tbody > tr > td,
+.hRight .content .classification .table .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .addFl .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .addFl .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .addFl .list {
+  padding: 10px 20px;
+}
+.hRight .content .addFl .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .addFl .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .addFl .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .addFl .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 122px;
+}
+.hRight .content .addFl .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 5px;
+  margin-top: 20px;
+}
+.hRight .content .addFl .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .addFl .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .addFl .submit {
+  margin-left: 155px;
+}
+.hRight .content .addFl .submit input {
+  width: 100px;
+}
+.hRight .content .editFl .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .editFl .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .editFl .list {
+  padding: 10px 20px;
+}
+.hRight .content .editFl .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .editFl .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .editFl .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .editFl .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .editFl .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 122px;
+}
+.hRight .content .editFl .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 5px;
+  margin-top: 20px;
+}
+.hRight .content .editFl .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .editFl .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .editFl .submit {
+  margin-left: 155px;
+}
+.hRight .content .editFl .submit input {
+  width: 100px;
+}
+.hRight .content .addZfl .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .addZfl .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .addZfl .list {
+  padding: 10px 20px;
+}
+.hRight .content .addZfl .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .addZfl .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .addZfl .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .addZfl .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .addZfl .list ul > li .info {
+  margin-left: 8px;
+}
+.hRight .content .addZfl .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .addZfl .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.hRight .content .addZfl .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .addZfl .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .addZfl .submit {
+  margin-left: 155px;
+}
+.hRight .content .addZfl .submit input {
+  width: 100px;
+}
+.hRight .content .logoManage .magLogo {
+  padding: 10px 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eeeeee;
+}
+.hRight .content .logoManage .magLogo span {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+}
+.hRight .content .logoManage .magLogo a {
+  margin: -5px 0 0 0;
+  background-color: #1abc9c;
+}
+.hRight .content .logoManage .table {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 50px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 50px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(2) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(3) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 110px;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(6) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(7) {
+  width: 120px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 120px;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr:nth-of-type(1) td:nth-child(7) {
+  padding: 5px;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr:nth-of-type(1) td:nth-child(7) a {
+  background: #6633FF;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr:nth-of-type(2) td:nth-child(7) {
+  padding: 5px;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr:nth-of-type(2) td:nth-child(7) a {
+  background: #F09;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(8) {
+  width: 150px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 150px;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(8) a {
+  background: #2ecc71;
+}
+.hRight .content .logoManage .table .table-bordered > thead > tr > th:nth-child(9) {
+  width: 150px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(9) {
+  width: 150px;
+  text-align: center;
+}
+.hRight .content .logoManage .table .table-bordered > tbody > tr > td:nth-child(9) a {
+  background: #1abc9c;
+}
+.hRight .content .logoManage .table .table > thead > tr > th,
+.hRight .content .logoManage .table .table > tbody > tr > th,
+.hRight .content .logoManage .table .table > tfoot > tr > th,
+.hRight .content .logoManage .table .table > thead > tr > td,
+.hRight .content .logoManage .table .table > tbody > tr > td,
+.hRight .content .logoManage .table .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .addLogo .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .addLogo .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .addLogo .list {
+  padding: 10px 20px;
+}
+.hRight .content .addLogo .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .addLogo .list ul > .logo .logo-sp {
+  margin-right: -150px !important;
+}
+.hRight .content .addLogo .list ul > li {
+  margin-bottom: 20px;
+  line-height: 55px;
+}
+.hRight .content .addLogo .list ul > li span {
+  font-size: 12px;
+  float: left;
+}
+.hRight .content .addLogo .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .addLogo .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .addLogo .list ul > li .form-group .has-feedback > .img {
+  text-align: center;
+}
+.hRight .content .addLogo .list ul > li .form-group .has-feedback > .img a {
+  display: block;
+  color: #000;
+}
+.hRight .content .addLogo .list ul > li .fileinput {
+  display: none;
+  margin-left: 150px;
+}
+.hRight .content .addLogo .list ul > li span > i {
+  font-size: 14px;
+}
+.hRight .content .addLogo .list ul > li .txtarea {
+  width: 670px;
+  height: 150px;
+  margin-left: 150px;
+  color: #1abc9c;
+}
+.hRight .content .addLogo .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.hRight .content .addLogo .list ul > li .radio span {
+  font-size: 14px;
+}
+.hRight .content .addLogo .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .addLogo .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .addLogo ul .radioAll {
+  height: 60px;
+}
+.hRight .content .addLogo .submit input {
+  margin-left: 155px;
+  width: 100px;
+}
+.hRight .content .allOrder .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .allOrder .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .allOrder .list {
+  padding: 10px 20px;
+}
+.hRight .content .allOrder .list ul > li {
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+.hRight .content .allOrder .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .allOrder .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .allOrder .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .allOrder .list ul > li .form-group .has-feedback > .img {
+  text-align: center;
+}
+.hRight .content .allOrder .list ul > li .form-group .has-feedback > .img a {
+  display: block;
+  color: #000;
+}
+.hRight .content .allOrder .list ul > li .cd-btn {
+  float: left;
+}
+.hRight .content .allOrder .date-xd {
+  heigth: 70px;
+}
+.hRight .content .allOrder .date-xd .cxdataPannl {
+  margin-left: 50px;
+  float: left;
+  height: 66px;
+}
+.hRight .content .allOrder .date-xd .cxdataPannl .cxdate {
+  width: 150px;
+  margin: 3px 0 0 34px;
+  color: #2ecc85;
+}
+.hRight .content .allOrder .date-xd .fgf {
+  float: left;
+  margin-left: -28px;
+  width: 20px;
+}
+.hRight .content .allOrder .date-xd .input-cdp {
+  float: left;
+  margin-left: -5px;
+}
+.hRight .content .allOrder .input-ps {
+  clear: both;
+}
+.hRight .content .allOrder .input-ps .span {
+  margin-bottom: 0px;
+}
+.hRight .content .allOrder .btn-SE {
+  line-height: 80px;
+}
+.hRight .content .allOrder .btn-SE input {
+  margin-left: 100px;
+  width: 100px;
+}
+.hRight .content .allOrder .btn-SE .btn-ecl {
+  background-color: #2ecc85;
+}
+.hRight .content .allOrder .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .allOrder .table-list .title {
+  width: 1058px;
+  height: 45px;
+  border: 2px solid #eef0f0;
+  border-bottom: 0;
+  border-right: 0;
+}
+.hRight .content .allOrder .table-list .title ul > li {
+  line-height: 42px;
+  float: left;
+}
+.hRight .content .allOrder .table-list .title ul > li div {
+  text-align: center;
+  border-right: 2px solid #eef0f0;
+  font-size: 16px;
+}
+.hRight .content .allOrder .table-list .title ul > li .ord-all {
+  width: 136px;
+}
+.hRight .content .allOrder .table-list .title ul > li .dfk {
+  width: 86px;
+}
+.hRight .content .allOrder .table-list .title ul > li .dfh {
+  width: 106px;
+}
+.hRight .content .allOrder .table-list .title ul > li .dsh {
+  width: 178px;
+}
+.hRight .content .allOrder .table-list .title ul > li .ywc {
+  width: 134px;
+}
+.hRight .content .allOrder .table-list .title ul > li .ygb {
+  width: 170px;
+}
+.hRight .content .allOrder .table-list .title ul > li .hhz {
+  width: 133px;
+}
+.hRight .content .allOrder .table-list .title ul > li .thz {
+  width: 113px;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 124px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 124px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 78px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 78px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(6) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(7) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(8) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(9) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(9) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(10) {
+  width: 120px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(10) {
+  width: 120px;
+}
+.hRight .content .allOrder .table-list .table-bordered > thead > tr > th:nth-child(11) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table-bordered > tbody > tr > td:nth-child(11) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .allOrder .table-list .table > thead > tr > th,
+.hRight .content .allOrder .table-list .table > tbody > tr > th,
+.hRight .content .allOrder .table-list .table > tfoot > tr > th,
+.hRight .content .allOrder .table-list .table > thead > tr > td,
+.hRight .content .allOrder .table-list .table > tbody > tr > td,
+.hRight .content .allOrder .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .allOrder .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .allOrder .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .allOrder .table-list .btn-tk {
+  background-color: #F90;
+}
+.hRight .content .allOrder .table-list .btn-wc {
+  background-color: #0e7bff;
+}
+.hRight .content .allOrder .footer {
+  margin-left: 717px;
+}
+.hRight .content .allOrder .footer .f-filp {
+  font-size: 14px;
+  width: 290px;
+  float: left;
+}
+.hRight .content .allOrder .footer .has-success {
+  width: 70px;
+  float: left;
+}
+.hRight .content .allOrder .footer .has-success .input-lg {
+  height: 20px;
+  font-size: 12px;
+  min-height: 24px;
+  padding: 2px 0 2px 5px;
+}
+.hRight .content .orderDetail .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .orderDetail .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .orderDetail .list {
+  padding: 0px 20px;
+}
+.hRight .content .orderDetail .list ul > li {
+  line-height: 32px;
+}
+.hRight .content .orderDetail .list ul > li .info-list span {
+  width: 100px;
+  display: inline-block;
+  font-size: 14px;
+}
+.hRight .content .orderDetail .list ul > li .info-list span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .orderDetail .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .orderDetail .list ul > li .form-group .has-feedback > .img {
+  text-align: center;
+}
+.hRight .content .orderDetail .list ul > li .form-group .has-feedback > .img a {
+  display: block;
+  color: #000;
+}
+.hRight .content .orderDetail .list ul > li .cd-btn {
+  float: left;
+}
+.hRight .content .orderDetail .spInfo .magLogo {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+}
+.hRight .content .orderDetail .spInfo .magLogo span {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+}
+.hRight .content .orderDetail .spInfo .magLogo a {
+  margin: -5px 0 0 0;
+  background-color: #1abc9c;
+}
+.hRight .content .orderDetail .spInfo .table {
+  padding: 20px 20px;
+  width: 1088px;
+  margin-bottom: 0;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 50px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 50px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-child(2) {
+  width: 200px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 200px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-child(3) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 110px;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-child(6) {
+  width: 120px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 120px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > thead > tr > th:nth-child(7) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .orderDetail .spInfo .table .table > thead > tr > th,
+.hRight .content .orderDetail .spInfo .table .table > tbody > tr > th,
+.hRight .content .orderDetail .spInfo .table .table > tfoot > tr > th,
+.hRight .content .orderDetail .spInfo .table .table > thead > tr > td,
+.hRight .content .orderDetail .spInfo .table .table > tbody > tr > td,
+.hRight .content .orderDetail .spInfo .table .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .orderDetail .assess {
+  padding-left: 20px ;
+}
+.hRight .content .orderDetail .assess p {
+  font-size: 14px;
+}
+.hRight .content .orderDetail .assess .aes-left {
+  width: 40%;
+  height: 196px;
+  float: left;
+}
+.hRight .content .orderDetail .assess .aes-rigth {
+  width: 42%;
+  height: 196px;
+  float: left;
+}
+.hRight .content .orderDetail .assess .aes-rigth .rt-p {
+  width: 144px;
+  margin: 95px 412px;
+}
+.hRight .content .orderDetail .operate-bz {
+  border-top: 2px solid #eeeeee;
+  padding: 10px 20px;
+  clear: both;
+  font-size: 14px;
+}
+.hRight .content .orderDetail .operate-bz span {
+  float: left;
+  padding-right: 20px;
+}
+.hRight .content .orderDetail .operate-bz .spinfo {
+  width: 400px;
+  height: 150px;
+  font-size: 14px;
+}
+.hRight .content .orderDetail .btn-SE {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.hRight .content .orderDetail .btn-SE span {
+  font-size: 14px;
+}
+.hRight .content .orderDetail .btn-SE input {
+  margin-left: 50px;
+  width: 100px;
+}
+.hRight .content .orderDetail .btn-SE .btn-ecl {
+  background-color: #7b8996;
+}
+.hRight .content .bulkShipment .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .bulkShipment .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .bulkShipment .info-list {
+  padding: 10px 20px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm {
+  width: 600px;
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm span {
+  font-size: 14px;
+  float: left;
+  margin-right: 30px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .has-success > .input-kd {
+  width: 200px;
+  margin-top: -10px;
+  font-size: 14px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .or-all {
+  line-height: 80px;
+  font-size: 18px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab {
+  width: 1098px;
+  margin-bottom: 0;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody {
+  background-color: #f2faf8;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td .has-success > .input-lg {
+  width: 110px;
+  height: 40px;
+  font-size: 13px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td .form-group > .input-type {
+  width: 108px;
+  height: 40px;
+  font-size: 13px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td .form-group > .input-type {
+  margin: 5px 5px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 110px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-of-type(1) .form-group {
+  margin-bottom: 0;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(2) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 110px;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(2) .form-group {
+  margin-bottom: 0;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(2) .form-group > .input-lg {
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(3) {
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(3) {
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(6) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(7) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(8) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(9) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(9) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(10) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(10) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(10) .btn-fk {
+  background-color: #2ecc71;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(11) {
+  width: 140px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(11) {
+  width: 140px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > thead > tr > th:nth-child(12) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .info-list .kd-ibm .orderInfo .ord-tab .table-bordered > tbody > tr > td:nth-child(12) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .bulkShipment .table > thead > tr > th,
+.hRight .content .bulkShipment .table > tbody > tr > th,
+.hRight .content .bulkShipment .table > tfoot > tr > th,
+.hRight .content .bulkShipment .table > thead > tr > td,
+.hRight .content .bulkShipment .table > tbody > tr > td,
+.hRight .content .bulkShipment .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .bulkShipment .btn-SE {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.hRight .content .bulkShipment .btn-SE span {
+  font-size: 14px;
+}
+.hRight .content .bulkShipment .btn-SE input {
+  margin-left: 50px;
+  width: 100px;
+}
+.hRight .content .bulkShipment .btn-SE .btn-ecl {
+  background-color: #7b8996;
+}
+.hRight .content .hpManages .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .hpManages .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .hpManages .list {
+  padding: 10px 20px 0 20px;
+}
+.hRight .content .hpManages .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .hpManages .list ul > li {
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+.hRight .content .hpManages .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .hpManages .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .hpManages .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .hpManages .list ul > li:nth-of-type(4) .input-lg {
+  margin-left: 50px;
+}
+.hRight .content .hpManages .list ul > li:nth-of-type(6) .input-lg {
+  margin-left: 50px;
+}
+.hRight .content .hpManages .list ul > li .form-group .has-feedback > .img {
+  text-align: center;
+}
+.hRight .content .hpManages .list ul > li .form-group .has-feedback > .img a {
+  display: block;
+  color: #000;
+}
+.hRight .content .hpManages .list ul > li .cd-btn {
+  float: left;
+}
+.hRight .content .hpManages .table-list .table {
+  margin-bottom: 0px;
+}
+.hRight .content .hpManages .date-xd {
+  heigth: 70px;
+}
+.hRight .content .hpManages .date-xd .cxdataPannl {
+  margin-left: 50px;
+  float: left;
+  height: 66px;
+}
+.hRight .content .hpManages .date-xd .cxdataPannl .cxdate {
+  width: 150px;
+  margin: 3px 0 0 34px;
+  color: #2ecc85;
+}
+.hRight .content .hpManages .date-xd .fgf {
+  float: left;
+  margin-left: -28px;
+  width: 20px;
+}
+.hRight .content .hpManages .date-xd .input-cdp {
+  float: left;
+  margin-left: -5px;
+}
+.hRight .content .hpManages .input-ps {
+  clear: both;
+}
+.hRight .content .hpManages .input-ps .span {
+  margin-bottom: 0px;
+}
+.hRight .content .hpManages .btn-SE {
+  line-height: 80px;
+}
+.hRight .content .hpManages .btn-SE input {
+  margin-left: 100px;
+  width: 100px;
+}
+.hRight .content .hpManages .btn-SE .btn-ecl {
+  background-color: #2ecc85;
+}
+.hRight .content .hpManages .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .hpManages .table-list .title {
+  width: 1058px;
+  height: 45px;
+  border: 2px solid #eef0f0;
+  border-bottom: 0;
+  border-right: 0;
+}
+.hRight .content .hpManages .table-list .title ul {
+  padding-bottom: 0;
+}
+.hRight .content .hpManages .table-list .title ul > li {
+  line-height: 42px;
+  float: left;
+}
+.hRight .content .hpManages .table-list .title ul > li div {
+  text-align: center;
+  border-right: 2px solid #eef0f0;
+  font-size: 16px;
+}
+.hRight .content .hpManages .table-list .title ul > li .ord-all {
+  width: 326px;
+}
+.hRight .content .hpManages .table-list .title ul > li .dfk {
+  width: 379px;
+}
+.hRight .content .hpManages .table-list .title ul > li .dfh {
+  width: 351px;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 124px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 124px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 78px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 78px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(6) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(7) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(8) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(9) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(9) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(10) {
+  width: 120px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(10) {
+  width: 120px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > thead > tr > th:nth-child(11) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table-bordered > tbody > tr > td:nth-child(11) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .hpManages .table-list .table > thead > tr > th,
+.hRight .content .hpManages .table-list .table > tbody > tr > th,
+.hRight .content .hpManages .table-list .table > tfoot > tr > th,
+.hRight .content .hpManages .table-list .table > thead > tr > td,
+.hRight .content .hpManages .table-list .table > tbody > tr > td,
+.hRight .content .hpManages .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .hpManages .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .hpManages .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .hpManages .footer {
+  margin-left: 717px;
+}
+.hRight .content .hpManages .footer .f-filp {
+  font-size: 14px;
+  width: 290px;
+  float: left;
+}
+.hRight .content .hpManages .footer .has-success {
+  width: 70px;
+  float: left;
+}
+.hRight .content .hpManages .footer .has-success .input-lg {
+  height: 20px;
+  font-size: 12px;
+  min-height: 24px;
+  padding: 2px 0 2px 5px;
+}
+.hRight .content .assessSd .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .assessSd .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .assessSd .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .assessSd .table-list .title {
+  width: 1058px;
+  height: 45px;
+  border: 2px solid #eef0f0;
+  border-bottom: 0;
+  border-right: 0;
+}
+.hRight .content .assessSd .table-list .title ul {
+  padding-bottom: 0;
+}
+.hRight .content .assessSd .table-list .title ul > li {
+  line-height: 42px;
+  float: left;
+}
+.hRight .content .assessSd .table-list .title ul > li div {
+  text-align: center;
+  border-right: 2px solid #eef0f0;
+  font-size: 16px;
+}
+.hRight .content .assessSd .table-list .title ul > li .ord-all {
+  width: 252px;
+}
+.hRight .content .assessSd .table-list .title ul > li .dfk {
+  width: 324px;
+}
+.hRight .content .assessSd .table-list .title ul > li .dfh {
+  width: 320px;
+}
+.hRight .content .assessSd .table-list .title ul > li .dsh {
+  width: 160px;
+}
+.hRight .content .assessSd .table-list .table {
+  margin-bottom: 0;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td .mlm {
+  padding: 8px 12px;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 58px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 58px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 134px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 134px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 90px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-child(5) .no-show {
+  background-color: #9aa4af;
+}
+.hRight .content .assessSd .table-list .table-bordered > thead > tr > th:nth-child(6) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .assessSd .table-list .table > thead > tr > th,
+.hRight .content .assessSd .table-list .table > tbody > tr > th,
+.hRight .content .assessSd .table-list .table > tfoot > tr > th,
+.hRight .content .assessSd .table-list .table > thead > tr > td,
+.hRight .content .assessSd .table-list .table > tbody > tr > td,
+.hRight .content .assessSd .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .assessSd .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .assessSd .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .assessSd .footer {
+  margin-left: 717px;
+}
+.hRight .content .assessSd .footer .f-filp {
+  font-size: 14px;
+  width: 290px;
+  float: left;
+}
+.hRight .content .assessSd .footer .has-success {
+  width: 70px;
+  float: left;
+}
+.hRight .content .assessSd .footer .has-success .input-lg {
+  height: 20px;
+  font-size: 12px;
+  min-height: 24px;
+  padding: 2px 0 2px 5px;
+}
+.hRight .content .vipManages .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .vipManages .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .vipManages .header .btn {
+  margin-left: 36px;
+}
+.hRight .content .vipManages .list {
+  padding: 10px 20px;
+}
+.hRight .content .vipManages .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .vipManages .list ul .vp-li {
+  margin-top: 0 !important;
+}
+.hRight .content .vipManages .list ul .vp-li span > i {
+  margin-right: 52px;
+}
+.hRight .content .vipManages .list ul > li {
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+.hRight .content .vipManages .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .vipManages .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .vipManages .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .vipManages .list ul > li:nth-of-type(5) .input-lg {
+  margin-left: 50px;
+}
+.hRight .content .vipManages .list ul > li:nth-of-type(6) {
+  margin-top: -20px;
+}
+.hRight .content .vipManages .list ul > li:nth-of-type(6) .input-lg {
+  margin-left: 50px;
+}
+.hRight .content .vipManages .list ul > li .form-group .has-feedback > .img {
+  text-align: center;
+}
+.hRight .content .vipManages .list ul > li .form-group .has-feedback > .img a {
+  display: block;
+  color: #000;
+}
+.hRight .content .vipManages .list ul > li .cd-btn {
+  float: left;
+}
+.hRight .content .vipManages .date-xd {
+  heigth: 70px;
+}
+.hRight .content .vipManages .date-xd .cxdataPannl {
+  margin-left: 50px;
+  float: left;
+  height: 66px;
+}
+.hRight .content .vipManages .date-xd .cxdataPannl .cxdate {
+  width: 150px;
+  margin: 3px 0 0 34px;
+  color: #2ecc85;
+}
+.hRight .content .vipManages .date-xd .fgf {
+  float: left;
+  margin-left: -28px;
+  width: 20px;
+}
+.hRight .content .vipManages .date-xd .input-cdp {
+  float: left;
+  margin-left: -5px;
+}
+.hRight .content .vipManages .input-ps {
+  clear: both;
+}
+.hRight .content .vipManages .input-ps .span {
+  margin-bottom: 0px;
+}
+.hRight .content .vipManages .btn-SE {
+  line-height: 80px;
+}
+.hRight .content .vipManages .btn-SE input {
+  margin-left: 100px;
+  width: 100px;
+}
+.hRight .content .vipManages .btn-SE .btn-ecl {
+  background-color: #2ecc85;
+}
+.hRight .content .vipManages .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .vipManages .table-list .table {
+  margin-bottom: 0;
+}
+.hRight .content .vipManages .table-list .title {
+  width: 1058px;
+  height: 45px;
+  border: 2px solid #eef0f0;
+  border-bottom: 0;
+  border-right: 0;
+}
+.hRight .content .vipManages .table-list .title ul {
+  padding-bottom: 0;
+}
+.hRight .content .vipManages .table-list .title ul > li {
+  line-height: 42px;
+  float: left;
+}
+.hRight .content .vipManages .table-list .title ul > li div {
+  text-align: center;
+  border-right: 2px solid #eef0f0;
+  font-size: 16px;
+}
+.hRight .content .vipManages .table-list .title ul > li .ord-all {
+  width: 193px;
+}
+.hRight .content .vipManages .table-list .title ul > li .dfk {
+  width: 164px;
+}
+.hRight .content .vipManages .table-list .title ul > li .dfh {
+  width: 177px;
+}
+.hRight .content .vipManages .table-list .title ul > li .dsh {
+  width: 177px;
+}
+.hRight .content .vipManages .table-list .title ul > li .ywc {
+  width: 175px;
+}
+.hRight .content .vipManages .table-list .title ul > li .ygb {
+  width: 170px;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 130px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 130px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(5) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(6) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(7) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 80px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > thead > tr > th:nth-child(8) {
+  width: 270px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 270px;
+  text-align: center;
+}
+.hRight .content .vipManages .table-list .table > thead > tr > th,
+.hRight .content .vipManages .table-list .table > tbody > tr > th,
+.hRight .content .vipManages .table-list .table > tfoot > tr > th,
+.hRight .content .vipManages .table-list .table > thead > tr > td,
+.hRight .content .vipManages .table-list .table > tbody > tr > td,
+.hRight .content .vipManages .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .vipManages .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .vipManages .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .vipManages .table-list .btn-tk {
+  background-color: #F90;
+}
+.hRight .content .vipManages .table-list .btn-wc {
+  background-color: #0e7bff;
+}
+.hRight .content .vipManages .footer {
+  margin-left: 717px;
+}
+.hRight .content .vipManages .footer .f-filp {
+  font-size: 14px;
+  width: 290px;
+  float: left;
+}
+.hRight .content .vipManages .footer .has-success {
+  width: 70px;
+  float: left;
+}
+.hRight .content .vipManages .footer .has-success .input-lg {
+  height: 20px;
+  font-size: 12px;
+  min-height: 24px;
+  padding: 2px 0 2px 5px;
+}
+.hRight .content .vipEdit .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .vipEdit .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .vipEdit .list {
+  padding: 10px 20px;
+}
+.hRight .content .vipEdit .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .vipEdit .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .vipEdit .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .vipEdit .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .vipEdit .list ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .vipEdit .list ul > li .sp-font i {
+  width: 140px;
+  text-align: left;
+}
+.hRight .content .vipEdit .list ul > li .sp-show i {
+  width: 36px;
+  text-align: left;
+}
+.hRight .content .vipEdit .list ul > li .a-show {
+  font-size: 14px;
+}
+.hRight .content .vipEdit .submit {
+  margin-left: 155px;
+}
+.hRight .content .vipEdit .submit input {
+  width: 100px;
+}
+.hRight .content .intgManages .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .intgManages .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .intgManages .list {
+  padding: 10px 20px;
+}
+.hRight .content .intgManages .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .intgManages .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .intgManages .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .intgManages .list ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .intgManages .list ul > li .sp-font i {
+  width: 140px;
+  text-align: left;
+}
+.hRight .content .intgManages .list ul > li .sp-show i {
+  width: 36px;
+  text-align: left;
+}
+.hRight .content .intgManages .list ul > li .a-show {
+  font-size: 14px;
+}
+.hRight .content .intgManages .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 5px;
+  margin-top: 20px;
+}
+.hRight .content .intgManages .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .intgManages .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .intgManages .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+  font-size: 14px;
+}
+.hRight .content .intgManages .submit {
+  margin-left: 155px;
+  line-height: 80px;
+}
+.hRight .content .intgManages .submit input {
+  width: 100px;
+}
+.hRight .content .intgManages .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .intgManages .table-list .table {
+  margin-bottom: 0;
+}
+.hRight .content .intgManages .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td .mlm {
+  padding: 8px 12px;
+}
+.hRight .content .intgManages .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > thead > tr > th:nth-child(4) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > thead > tr > th:nth-child(5) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .intgManages .table-list .table > thead > tr > th,
+.hRight .content .intgManages .table-list .table > tbody > tr > th,
+.hRight .content .intgManages .table-list .table > tfoot > tr > th,
+.hRight .content .intgManages .table-list .table > thead > tr > td,
+.hRight .content .intgManages .table-list .table > tbody > tr > td,
+.hRight .content .intgManages .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .intgManages .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .intgManages .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .balabceManage .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .balabceManage .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .balabceManage .list {
+  padding: 10px 20px;
+}
+.hRight .content .balabceManage .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .balabceManage .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .balabceManage .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .balabceManage .list ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .balabceManage .list ul > li .sp-font i {
+  width: 140px;
+  text-align: left;
+}
+.hRight .content .balabceManage .list ul > li .sp-show i {
+  width: 36px;
+  text-align: left;
+}
+.hRight .content .balabceManage .list ul > li .a-show {
+  font-size: 14px;
+}
+.hRight .content .balabceManage .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 5px;
+  margin-top: 20px;
+}
+.hRight .content .balabceManage .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .balabceManage .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .balabceManage .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+  font-size: 14px;
+}
+.hRight .content .balabceManage .submit {
+  margin-left: 155px;
+  line-height: 80px;
+}
+.hRight .content .balabceManage .submit input {
+  width: 100px;
+}
+.hRight .content .balabceManage .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .balabceManage .table-list .table {
+  margin-bottom: 0;
+}
+.hRight .content .balabceManage .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td .mlm {
+  padding: 8px 12px;
+}
+.hRight .content .balabceManage .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > thead > tr > th:nth-child(4) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > thead > tr > th:nth-child(5) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .balabceManage .table-list .table > thead > tr > th,
+.hRight .content .balabceManage .table-list .table > tbody > tr > th,
+.hRight .content .balabceManage .table-list .table > tfoot > tr > th,
+.hRight .content .balabceManage .table-list .table > thead > tr > td,
+.hRight .content .balabceManage .table-list .table > tbody > tr > td,
+.hRight .content .balabceManage .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .balabceManage .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .balabceManage .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .vipLevel .table-level {
+  padding: 0 20px 20px 20px;
+  width: 1098px;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td a {
+  font-size: 13px;
+  padding: 8px 14px;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td .mlm {
+  margin-left: 15px!important;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td span {
+  color: #BDC3C7;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .vipLevel .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 110px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  width: 130px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 130px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  width: 140px;
+  text-align: center;
+}
+.hRight .content .vipLevel .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 140px;
+  text-align: center;
+}
+.hRight .content .newLevel .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .newLevel .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .newLevel .list {
+  padding: 10px 20px;
+}
+.hRight .content .newLevel .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .newLevel .list ul > li {
+  height: 55px;
+  margin-bottom: 18px;
+  line-height: 55px;
+}
+.hRight .content .newLevel .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .newLevel .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .newLevel .list ul > li:nth-of-type(1) .input-lg {
+  margin-left: 52px;
+}
+.hRight .content .newLevel .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 150px;
+}
+.hRight .content .newLevel .list ul > li .input-jf {
+  float: left;
+  margin-left: 50px;
+}
+.hRight .content .newLevel .list ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .newLevel .list ul > li .sp-font i {
+  width: 140px;
+  text-align: left;
+}
+.hRight .content .newLevel .submit {
+  margin-left: 170px;
+}
+.hRight .content .newLevel .submit input {
+  width: 100px;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td {
+  padding: 10px 0;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td:nth-child(1) {
+  width: 120px !important;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 120px !important;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 110px !important;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > thead > tr > th:nth-child(5) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > thead > tr > th:nth-child(6) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 100px;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > thead > tr > th:nth-child(7) {
+  width: 260px;
+  text-align: center;
+}
+.hRight .content .couponManages .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 260px;
+  text-align: center;
+}
+.hRight .content .addYhj .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .addYhj .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .addYhj .list {
+  padding: 10px 20px;
+}
+.hRight .content .addYhj .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .addYhj .list ul > li {
+  height: 55px;
+  margin-bottom: 18px;
+  line-height: 55px;
+}
+.hRight .content .addYhj .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .addYhj .list ul > li span i {
+  width: 158px !important;
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .addYhj .list ul > li .info {
+  padding-left: 50px;
+}
+.hRight .content .addYhj .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 210px;
+}
+.hRight .content .addYhj .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.hRight .content .addYhj .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .addYhj .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .addYhj .list ul > li .cxdataPannl {
+  margin-left: 52px;
+  float: left;
+  height: 64px;
+}
+.hRight .content .addYhj .list ul > li .cxdataPannl .cxdate {
+  width: 264px;
+  margin: 8px 0 0 32px;
+  color: #2ecc85;
+}
+.hRight .content .addYhj .list ul > li .sd-span {
+  width: 500px !important;
+  text-align: left;
+}
+.hRight .content .addYhj .list .slt-float {
+  position: relative;
+}
+.hRight .content .addYhj .list .slt-float .input-lg {
+  margin-left: 52px;
+}
+.hRight .content .addYhj .list .slt-float span:nth-of-type(2) {
+  float: left;
+  position: absolute;
+  top: -6px;
+  left: 510px;
+}
+.hRight .content .addYhj .list .slt-float span:nth-of-type(2) i {
+  width: 485px !important;
+}
+.hRight .content .addYhj .submit {
+  margin-left: 230px;
+}
+.hRight .content .addYhj .submit input {
+  width: 100px;
+}
+.hRight .content .grantManages .table-level {
+  padding: 0 20px 20px 20px;
+  width: 1098px;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td a {
+  font-size: 13px;
+  padding: 8px 14px;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td .mlm {
+  margin-left: 15px!important;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td span {
+  color: #BDC3C7;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th span {
+  color: #BDC3C7;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th a {
+  padding: 8px 14px;
+  font-size: 13px;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  width: 11%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 11%;
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-child(6) {
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-child(6) {
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > thead > tr > th:nth-child(7) {
+  text-align: center;
+}
+.hRight .content .grantManages .table-level .table-bordered > tbody > tr > td:nth-child(7) {
+  text-align: center;
+}
+.hRight .content .salesManages .page-header .btn {
+  padding: 10px 8px;
+}
+.hRight .content .salesManages .table-level {
+  padding: 0 20px 20px 20px;
+  width: 1100px;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td a {
+  font-size: 13px;
+  padding: 8px 14px;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td .mlm {
+  margin-left: 15px!important;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 8%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 8%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 14%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 14%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-child(5) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-child(6) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > thead > tr > th:nth-child(7) {
+  text-align: center;
+}
+.hRight .content .salesManages .table-level .table-bordered > tbody > tr > td:nth-child(7) {
+  text-align: center;
+}
+.hRight .content .addSales .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .addSales .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .addSales .list {
+  padding: 10px 20px;
+}
+.hRight .content .addSales .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .addSales .list ul > li {
+  height: 55px;
+  margin-bottom: 10px;
+  line-height: 55px;
+}
+.hRight .content .addSales .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .addSales .list ul > li span i {
+  width: 158px !important;
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .addSales .list ul > li .info {
+  padding-left: 50px;
+}
+.hRight .content .addSales .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 210px;
+  font-size: 15px;
+}
+.hRight .content .addSales .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.hRight .content .addSales .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .addSales .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .addSales .list ul > li .cxdataPannl {
+  margin-left: 52px;
+  float: left;
+  height: 64px;
+}
+.hRight .content .addSales .list ul > li .cxdataPannl .cxdate {
+  width: 264px;
+  margin: 8px 0 0 32px;
+  color: #2ecc85;
+}
+.hRight .content .addSales .list .txtarea-cx {
+  height: 100px;
+}
+.hRight .content .addSales .list .txtarea-cx span {
+  float: left;
+}
+.hRight .content .addSales .list .txtarea-cx .demo-col {
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin: 10px 0 0 52px;
+}
+.hRight .content .addSales .list .txtarea-cx .demo-col .form-control {
+  color: #2ecc71 !important;
+}
+.hRight .content .addSales .submit {
+  margin-left: 230px;
+}
+.hRight .content .addSales .submit input {
+  width: 100px;
+}
+.hRight .content .adList .page-header .btn {
+  padding: 10px 8px;
+}
+.hRight .content .adList .table-level {
+  padding: 0 20px 20px 20px;
+  width: 90%;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td a {
+  font-size: 13px;
+  padding: 8px 14px;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td .mlm {
+  margin-left: 15px!important;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 5%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 5%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(5) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(5) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(6) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 12%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(7) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(8) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > thead > tr > th:nth-child(9) {
+  text-align: center;
+}
+.hRight .content .adList .table-level .table-bordered > tbody > tr > td:nth-child(9) {
+  text-align: center;
+}
+.hRight .content .addAd .list ul > li {
+  margin-bottom: 18px;
+}
+.hRight .content .addAd .list ul > li .input-sf {
+  float: left;
+  margin-left: 52px;
+}
+.hRight .content .addAd .list ul > li .input-file {
+  margin-left: -158px;
+}
+.hRight .content .addAd .list ul > li .sp-font {
+  margin-left: 24px;
+}
+.hRight .content .addAd .list ul > li .sp-font i {
+  width: 400px !important;
+  text-align: left;
+}
+.hRight .content .addAd .list ul > .adLj {
+  margin-top: 18px;
+}
+.hRight .content .addAd .list ul > .txtarea-cx {
+  margin-bottom: 80px;
+  line-height: 0;
+  position: relative;
+}
+.hRight .content .addAd .list ul > .txtarea-cx .active {
+  margin-top: 12px;
+}
+.hRight .content .addAd .list ul > .txtarea-cx .no-file {
+  margin-left: -48px;
+  line-height: 40px;
+}
+.hRight .content .addAd .list ul > .txtarea-cx .form-group > .fileinput {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+.hRight .content .addAd .list ul > .txtarea-cx .form-group > .fileinput .fileinput-preview {
+  width: 250px !important;
+  height: 120px !important;
+}
+.hRight .content .editAd .list ul > li {
+  margin-bottom: 18px;
+}
+.hRight .content .editAd .list ul > li .input-sf {
+  float: left;
+  margin-left: 52px;
+}
+.hRight .content .editAd .list ul > li .input-file {
+  margin-left: -158px;
+}
+.hRight .content .editAd .list ul > li .sp-font {
+  margin-left: 24px;
+}
+.hRight .content .editAd .list ul > li .sp-font i {
+  width: 400px !important;
+  text-align: left;
+}
+.hRight .content .editAd .list ul > .adLj {
+  margin-top: 18px;
+}
+.hRight .content .editAd .list ul > .txtarea-cx {
+  margin-bottom: 80px;
+  line-height: 0;
+  position: relative;
+}
+.hRight .content .editAd .list ul > .txtarea-cx .active {
+  margin-top: 12px;
+}
+.hRight .content .editAd .list ul > .txtarea-cx .no-file {
+  margin-left: -48px;
+  line-height: 40px;
+}
+.hRight .content .editAd .list ul > .txtarea-cx .form-group > .fileinput {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+.hRight .content .editAd .list ul > .txtarea-cx .form-group > .fileinput .fileinput-preview {
+  width: 250px !important;
+  height: 120px !important;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 60px;
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-child(6) {
+  width: 145px;
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-child(6) {
+  width: 145px;
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > thead > tr > th:nth-child(7) {
+  width: 280px;
+  text-align: center;
+}
+.hRight .content .adPosition .table-level .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 280px;
+  text-align: center;
+}
+.hRight .content .addPostn .list ul > li .input-sf {
+  float: left;
+  margin-left: 52px;
+}
+.hRight .content .addPostn .list ul > li .sp-font {
+  margin-left: 24px;
+}
+.hRight .content .addPostn .list ul > li .sp-font i {
+  width: 30px !important;
+  text-align: left;
+}
+.hRight .content .articleManages .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 10%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  width: 13%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 13%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  width: 18%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 18%;
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > thead > tr > th:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .articleManages .table-level .table-bordered > tbody > tr > td:nth-child(5) {
+  text-align: center;
+}
+.hRight .content .addArticle ul .sec-li .has-success {
+  float: left;
+}
+.hRight .content .addArticle ul .sec-li .has-success .input-lg {
+  width: 180px;
+  margin-left: 52px;
+}
+.hRight .content .addArticle ul .thrd-li {
+  clear: both;
+}
+.hRight .content .addArticle ul .thrd-li .form-group .checkbox {
+  margin: 16px 0 0 52px;
+  float: left;
+}
+.hRight .content .addArticle ul .thrd-li .form-group .checkbox .icons > span {
+  font-size: 16px !important;
+}
+.hRight .content .addArticle ul .txtarea-cx span {
+  float: left;
+  margin-top: 24px;
+}
+.hRight .content .addArticle ul .txtarea-cx .demo-col {
+  float: left;
+}
+.hRight .content .addArticle ul .txtarea-cx .demo-col .form-control {
+  width: 410px !important;
+  height: 150px;
+}
+.hRight .content .editArticle ul .sec-li .has-success {
+  float: left;
+}
+.hRight .content .editArticle ul .sec-li .has-success .input-lg {
+  width: 180px;
+  margin-left: 52px;
+}
+.hRight .content .editArticle ul .thrd-li {
+  clear: both;
+}
+.hRight .content .editArticle ul .thrd-li .form-group .checkbox {
+  margin: 16px 0 0 52px;
+  float: left;
+}
+.hRight .content .editArticle ul .thrd-li .form-group .checkbox .icons > span {
+  font-size: 16px !important;
+}
+.hRight .content .editArticle ul .txtarea-cx span {
+  float: left;
+  margin-top: 24px;
+}
+.hRight .content .editArticle ul .txtarea-cx .demo-col {
+  float: left;
+}
+.hRight .content .editArticle ul .txtarea-cx .demo-col .form-control {
+  width: 410px !important;
+  height: 150px;
+}
+.hRight .content .manageClass .table-responsive .btn {
+  padding: 6px 10px;
+  font-size: 13px;
+}
+.hRight .content .manageClass .table-responsive a {
+  margin: 5px;
+}
+.hRight .content .manageClass .table-responsive .table > .table-bordered > tbody > tr > td {
+  font-size: 13px !important;
+}
+.hRight .content .manageClass .table-responsive .table > .table-bordered > tbody > tr > td .mlm-btn {
+  width: 86px ;
+  height: 32px;
+  font-size: 12px;
+  padding: 0;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 16%;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-of-type(1) .form-control {
+  display: inline-block;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-of-type(1) .input-sm {
+  background-color: #e2e2e2;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #e2e2e2;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > thead > tr > th:nth-child(2) {
+  width: 18%;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 18%;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > thead > tr > th:nth-child(3) {
+  width: 24%;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 24%;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-child(3) .btn-xs {
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+  padding: 8px 14px;
+  background-color: #2ecc85;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > thead > tr > th:nth-child(4) {
+  width: 260px;
+  text-align: center;
+}
+.hRight .content .manageClass .table-responsive .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 260px;
+  text-align: center;
+}
+.hRight .content .editClass ul {
+  padding-bottom: 0;
+}
+.hRight .content .dataReport .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .dataReport .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .dataReport .lst-list > .list {
+  padding: 10px 20px;
+}
+.hRight .content .dataReport .lst-list > .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .dataReport .lst-list > .list ul > li {
+  height: 55px;
+  margin-bottom: 18px;
+  line-height: 55px;
+}
+.hRight .content .dataReport .lst-list > .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .dataReport .lst-list > .list ul > li span i {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .sp-font i {
+  width: 140px;
+  text-align: left;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .sp-show i {
+  width: 36px;
+  text-align: left;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .a-show {
+  font-size: 14px;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 18px;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 4px;
+  width: 100px;
+  height: 45px;
+  margin-left: 52px;
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .submit {
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  bottom: 22px;
+  line-height: 80px;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .submit .btn {
+  margin-left: 30px;
+}
+.hRight .content .dataReport .lst-list > .list ul > li .submit input {
+  width: 100px;
+}
+.hRight .content .dataReport .lst-list > .table-list {
+  padding: 20px 20px;
+  width: 1098px;
+}
+.hRight .content .dataReport .lst-list > .table-list span {
+  font-size: 16px;
+  padding-right: 10px;
+}
+.hRight .content .dataReport .lst-list > .table-list .table {
+  margin: 10px 0 0 0;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > thead > tr > th {
+  color: #000;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > tbody > tr > td {
+  font-size: 13px;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > tbody > tr {
+  background-color: #f2fbfa;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > tbody > tr > td .mlm {
+  padding: 8px 12px;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 259px;
+  text-align: center;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .dataReport .lst-list > .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .dataReport .lst-list > .table-list .table > thead > tr > th,
+.hRight .content .dataReport .lst-list > .table-list .table > tbody > tr > th,
+.hRight .content .dataReport .lst-list > .table-list .table > tfoot > tr > th,
+.hRight .content .dataReport .lst-list > .table-list .table > thead > tr > td,
+.hRight .content .dataReport .lst-list > .table-list .table > tbody > tr > td,
+.hRight .content .dataReport .lst-list > .table-list .table > tfoot > tr > td {
+  /* padding: 9px 25px; */
+  padding: 12px 0px;
+}
+.hRight .content .dataReport .lst-list > .table-list .btn-fk {
+  background-color: #1abc9c;
+}
+.hRight .content .dataReport .lst-list > .table-list .btn-fh {
+  background-color: #2ecc85;
+}
+.hRight .content .orderCount .header > h2 {
+  float: none;
+}
+.hRight .content .orderCount .list > ul {
+  padding-bottom: 0;
+}
+.hRight .content .orderCount .list > ul li:nth-of-type(5) .input-sp {
+  margin-left: 52px;
+}
+.hRight .content .orderCount .table-list {
+  padding: 0 0 0 20px;
+}
+.hRight .content .orderCount .table-list .table-bordered > thead > tr > th:nth-child(1) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .orderCount .table-list .table-bordered > tbody > tr > td:nth-child(1) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .orderCount .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 20%;
+  text-align: center;
+}
+.hRight .content .orderCount .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 20%;
+  text-align: center;
+}
+.hRight .content .orderCount .table-list .table-bordered > tbody > tr > td:nth-child(4) .btn-xs {
+  padding: 8px 12px;
+}
+.hRight .content .orderCount .table-list div {
+  text-align: right;
+}
+.hRight .content .orderCount .footer {
+  margin-left: 20px;
+  border: 1px solid #ff0000;
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+  line-height: 80px;
+}
+.hRight .content .orderCount .footer div {
+  margin-left: 180px;
+}
+.hRight .content .orderCount .footer span {
+  margin-left: 40px;
+}
+.hRight .content .spSell .header > h2 {
+  float: none;
+}
+.hRight .content .spSell .sps-list .table-list > .tb-title {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.hRight .content .spSell .sps-list .table-list {
+  padding: 0 0 0 20px;
+}
+.hRight .content .spSell .sps-list .table-list .table-bordered > thead > tr > th:nth-child(1) {
+  width: 100px ;
+  text-align: center;
+}
+.hRight .content .spSell .sps-list .table-list .table-bordered > tbody > tr > td:nth-child(1) {
+  width: 100px ;
+  text-align: center;
+}
+.hRight .content .spSell .sps-list .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 200px;
+  text-align: center;
+}
+.hRight .content .spSell .sps-list .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 200px;
+  text-align: center;
+}
+.hRight .content .spSell .sps-list .table-list .table-bordered > tbody > tr > td:nth-child(4) .btn-xs {
+  padding: 8px 12px;
+}
+.hRight .content .spSell .sps-list .table-list div {
+  text-align: right;
+}
+.hRight .content .spSell .list > .btn-SE {
+  clear: both;
+}
+.hRight .content .spSell .list > .btn-SE input {
+  margin-left: 150px;
+}
+.hRight .content .spSell .list > .btn-SE .btn-ecl {
+  margin-left: 30px;
+}
+.hRight .content .spSell .list > ul {
+  padding-bottom: 0;
+}
+.hRight .content .sellZb .header > h2 {
+  float: none;
+}
+.hRight .content .sellZb .sps-list .table-list > .tb-title {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.hRight .content .sellZb .sps-list .table-list {
+  padding: 0 0 0 20px;
+}
+.hRight .content .sellZb .sps-list .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 160px;
+  text-align: center;
+}
+.hRight .content .sellZb .sps-list .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 160px;
+  text-align: center;
+}
+.hRight .content .sellZb .sps-list .table-list .table-bordered > thead > tr > th:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .sellZb .sps-list .table-list .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .sellZb .sps-list .table-list div {
+  text-align: right;
+}
+.hRight .content .sellZb .list > .btn-SE {
+  clear: both;
+}
+.hRight .content .sellZb .list > .btn-SE input {
+  margin-left: 150px;
+}
+.hRight .content .sellZb .list > .btn-SE .btn-ecl {
+  margin-left: 30px;
+}
+.hRight .content .spSellPx .header > h2 {
+  float: none;
+}
+.hRight .content .spSellPx .table-list > .tb-title {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.hRight .content .spSellPx .table-list {
+  padding: 0 0 0 20px;
+}
+.hRight .content .spSellPx .table-list .table-bordered > thead > tr > th:nth-child(1) {
+  width: 80px ;
+  text-align: center;
+}
+.hRight .content .spSellPx .table-list .table-bordered > tbody > tr > td:nth-child(1) {
+  width: 80px ;
+  text-align: center;
+}
+.hRight .content .spSellPx .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 140px !important;
+  text-align: center;
+}
+.hRight .content .spSellPx .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 140px !important;
+  text-align: center;
+}
+.hRight .content .spSellPx .table-list div {
+  text-align: right;
+}
+.hRight .content .spSellPx .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .spSellPx .list ul > li {
+  margin-bottom: 0;
+}
+.hRight .content .spSellPx .list .btn {
+  border: 2px solid #2ecc71;
+  border-right: 0;
+}
+.hRight .content .spSellPx .list .cxdate {
+  border: 2px solid #2ecc71;
+}
+.hRight .content .spSellPx .list > .btn-SE {
+  clear: both;
+}
+.hRight .content .spSellPx .list > .btn-SE input {
+  margin-left: 150px;
+}
+.hRight .content .spSellPx .list > .btn-SE .btn-ecl {
+  margin-left: 30px;
+}
+.hRight .content .spExoSpt .header > h2 {
+  float: none;
+}
+.hRight .content .spExoSpt .table-list .table-bordered > thead > tr > th:nth-child(1) {
+  width: 100px !important;
+  text-align: center;
+}
+.hRight .content .spExoSpt .table-list .table-bordered > tbody > tr > td:nth-child(1) {
+  width: 100px !important;
+  text-align: center;
+}
+.hRight .content .spExoSpt .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 180px !important;
+  text-align: center;
+}
+.hRight .content .spExoSpt .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 180px !important;
+  text-align: center;
+}
+.hRight .content .VipSellPx .header > h2 {
+  float: none;
+}
+.hRight .content .VipSellPx .table-list > .tb-title {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.hRight .content .VipSellPx .table-list {
+  padding: 0 0 0 20px;
+}
+.hRight .content .VipSellPx .table-list .table-bordered > thead > tr > th:nth-child(1) {
+  width: 80px ;
+  text-align: center;
+}
+.hRight .content .VipSellPx .table-list .table-bordered > tbody > tr > td:nth-child(1) {
+  width: 80px ;
+  text-align: center;
+}
+.hRight .content .VipSellPx .table-list .table-bordered > thead > tr > th:nth-child(2) {
+  width: 140px !important;
+  text-align: center;
+}
+.hRight .content .VipSellPx .table-list .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 140px !important;
+  text-align: center;
+}
+.hRight .content .VipSellPx .table-list div {
+  text-align: right;
+}
+.hRight .content .VipSellPx .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .VipSellPx .list .date-xd {
+  height: 50px;
+  position: relative;
+}
+.hRight .content .VipSellPx .list .date-xd > .slt-opt {
+  position: absolute;
+  top: -2px;
+  left: 580px;
+}
+.hRight .content .VipSellPx .list .date-xd > .slt-opt .input-sp {
+  margin-left: 0;
+  font-size: 14px;
+  width: 150px;
+  height: 42px;
+}
+.hRight .content .VipSellPx .list .btn {
+  border: 2px solid #2ecc71;
+  border-right: 0;
+}
+.hRight .content .VipSellPx .list .cxdate {
+  border: 2px solid #2ecc71;
+}
+.hRight .content .VipSellPx .list > .btn-SE {
+  clear: both;
+}
+.hRight .content .VipSellPx .list > .btn-SE input {
+  margin-left: 150px;
+}
+.hRight .content .VipSellPx .list > .btn-SE .btn-ecl {
+  margin-left: 30px;
+}
+.hRight .content .mallSet .header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+.hRight .content .mallSet .header h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.hRight .content .mallSet .list {
+  padding: 10px 20px;
+}
+.hRight .content .mallSet .list ul {
+  padding-bottom: 0px !important;
+}
+.hRight .content .mallSet .list ul > li {
+  height: 55px;
+  margin-bottom: 12px;
+  line-height: 55px;
+}
+.hRight .content .mallSet .list ul > li span {
+  font-size: 14px;
+  float: left;
+}
+.hRight .content .mallSet .list ul > li span i {
+  width: 158px !important;
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.hRight .content .mallSet .list ul > li .info {
+  padding-left: 50px;
+}
+.hRight .content .mallSet .list ul > li .input-lg {
+  color: #2ecc71;
+  border-color: #2ecc71;
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  margin-left: 210px;
+  font-size: 15px;
+}
+.hRight .content .mallSet .list ul > li .radio {
+  float: left;
+  height: 25px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.hRight .content .mallSet .list ul > li .radio .icon-unchecked {
+  color: #d7dcde;
+}
+.hRight .content .mallSet .list ul > li .radio .icon-unchecked:hover {
+  color: #1abc9c;
+}
+.hRight .content .mallSet .list ul > li .cxdataPannl {
+  margin-left: 52px;
+  float: left;
+  height: 64px;
+}
+.hRight .content .mallSet .list ul > li .cxdataPannl .cxdate {
+  width: 264px;
+  margin: 8px 0 0 32px;
+  color: #2ecc85;
+}
+.hRight .content .mallSet .list ul .img-li {
+  height: 235px !important;
+}
+.hRight .content .mallSet .list ul .img-li .form-group > .fileinput {
+  padding-left: 52px;
+}
+.hRight .content .mallSet .list .slt-float {
+  position: relative;
+}
+.hRight .content .mallSet .list .slt-float span:nth-of-type(2) {
+  float: left;
+  position: absolute;
+  top: -6px;
+  left: 580px;
+}
+.hRight .content .mallSet .list .slt-float span:nth-of-type(2) i {
+  width: 485px !important;
+  text-align: left;
+}
+.hRight .content .mallSet .list .txtarea-cx {
+  height: 100px;
+}
+.hRight .content .mallSet .list .txtarea-cx span {
+  float: left;
+}
+.hRight .content .mallSet .list .txtarea-cx .demo-col {
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin: 10px 0 0 52px;
+}
+.hRight .content .mallSet .list .txtarea-cx .demo-col .form-control {
+  color: #2ecc71 !important;
+}
+.hRight .content .mallSet .submit {
+  margin-left: 230px;
+}
+.hRight .content .mallSet .submit input {
+  width: 100px;
+}
+.hRight .content .payset .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .payset .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 15%;
+  text-align: center;
+}
+.hRight .content .payset .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 35%;
+  text-align: center;
+}
+.hRight .content .payset .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 35%;
+  text-align: left;
+}
+.hRight .content .payset .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  text-align: center;
+}
+.hRight .content .payset .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  text-align: center;
+}
+.hRight .content .alipaySet .list {
+  padding-left: 30px;
+}
+.hRight .content .alipaySet .list > ul > li .key {
+  margin-left: -20px;
+}
+.hRight .content .alipaySet .list > ul > li .key i {
+  width: 120px;
+}
+.hRight .content .alipaySet .list > ul > li .input-lg {
+  margin-left: 50px;
+  float: left;
+}
+.hRight .content .alipaySet .list > ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .alipaySet .list > ul > li .sp-font i {
+  width: 200px;
+  text-align: left;
+}
+.hRight .content .alipaySet .list > ul > li:nth-of-type(2) .alipay-font i {
+  width: 856px;
+}
+.hRight .content .delivarySet .sf-btn {
+  width: 156px;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td .mlm-btn {
+  width: 86px ;
+  height: 32px;
+  font-size: 12px;
+  padding: 0;
+}
+.hRight .content .delivarySet .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > thead > tr > th:nth-child(2) {
+  width: 25%;
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-child(2) {
+  width: 25%;
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > thead > tr > th:nth-child(3) {
+  width: 25%;
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-child(3) {
+  width: 25%;
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > thead > tr > th:nth-child(4) {
+  width: 30%;
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-child(4) {
+  width: 30%;
+  text-align: center;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-child(4) a {
+  margin: 0 20px;
+}
+.hRight .content .sfSet .table-level .table-bordered > tbody > tr > td > .mlm {
+  margin-left: 0px !important;
+}
+.hRight .content .sfSet .table-level .table {
+  width: 1096px;
+}
+.hRight .content .sfSet .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 176px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 176px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > thead > tr > th:nth-of-type(3) {
+  width: 170px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > tbody > tr > td:nth-of-type(3) {
+  width: 170px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > thead > tr > th:nth-of-type(6) {
+  width: 170px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > tbody > tr > td:nth-of-type(6) {
+  width: 170px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > thead > tr > th:nth-child(7) {
+  width: 180px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > tbody > tr > td:nth-child(7) {
+  width: 180px;
+  text-align: left;
+}
+.hRight .content .sfSet .table-level .table-bordered > thead > tr > th:nth-child(8) {
+  width: 224px;
+  text-align: center;
+}
+.hRight .content .sfSet .table-level .table-bordered > tbody > tr > td:nth-child(8) {
+  width: 224px;
+  text-align: center;
+}
+.hRight .content .addArticle ul {
+  padding-bottom: 0;
+}
+.hRight .content .areaManage .list {
+  padding-left: 30px;
+}
+.hRight .content .areaManage .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .areaManage div {
+  float: none;
+}
+.hRight .content .areaManage .list > ul > li {
+  margin-bottom: 15px;
+}
+.hRight .content .areaManage .list > ul > li .key {
+  margin-left: -20px;
+}
+.hRight .content .areaManage .list > ul > li .key i {
+  width: 120px;
+}
+.hRight .content .areaManage .list > ul > li .input-lg {
+  margin-left: 50px;
+  float: left;
+}
+.hRight .content .areaManage .list > ul > li .sp-font {
+  margin-left: 52px;
+}
+.hRight .content .areaManage .list > ul > li .sp-font i {
+  width: 200px;
+  text-align: left;
+}
+.hRight .content .areaManage .list > ul > li .weight {
+  margin-left: 20px;
+}
+.hRight .content .areaManage .list > ul > li .w-left {
+  width: 370px;
+  float: left;
+}
+.hRight .content .areaManage .list > ul > li .w-left .opt-input {
+  width: 100px;
+  margin: 5px 10px 0 10px;
+  float: left;
+}
+.hRight .content .areaManage .list > ul > li .w-left .kg {
+  margin-top: -68px;
+  float: right;
+}
+.hRight .content .areaManage .list > ul > li .w-right {
+  width: 270px;
+  float: left;
+}
+.hRight .content .areaManage .list > ul > li .w-right .opt-input {
+  width: 100px;
+  margin: 5px 10px 0 10px;
+  float: left;
+}
+.hRight .content .areaManage .list > ul > li .w-right .kg {
+  margin-top: -68px;
+  float: right;
+}
+.hRight .content .areaManage .list > ul > li .opt-area {
+  margin-right: 38px;
+}
+.hRight .content .areaManage .list > ul > li .form-opt .opt-input {
+  width: 120px;
+  margin-left: 15px;
+}
+.hRight .content .areaManage .list > ul > li .form-opt .btn {
+  margin: -6px 0 0 15px;
+}
+.hRight .content .areaManage .list > ul > li .form-opt .btn .fui-trash {
+  font-size: 20px;
+}
+.hRight .content .areaManage .list > ul > li .form-opt .btn .fui-trash:before {
+  padding: 5px;
+  content: "+";
+  color: #fff;
+  font-weight: bold;
+}
+.hRight .content .areaManage .list > ul > li:nth-of-type(2) .alipay-font i {
+  width: 856px;
+}
+.hRight .content .areaManage .submit {
+  margin-left: 184px;
+  line-height: 70px;
+}
+.hRight .content .page-header > .bn-p {
+  margin-left: 18px;
+  width: 166px;
+}
+.hRight .content .page-header > .new-btn {
+  width: 150px;
+}
+.hRight .content .delivarySet .table-level .table-bordered > thead > tr > th:nth-of-type(1) {
+  width: 20%;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-of-type(1) {
+  width: 20%;
+}
+.hRight .content .delivarySet .table-level .table-bordered > tbody > tr > td:nth-of-type(3) a {
+  margin: 0 20px;
+}
+.hRight .content .newEmailServe ul {
+  padding-bottom: 0;
+}
+.hRight .content .newEmailServe ul li .btn-send {
+  margin: -4px 0 0 10px;
+}
+.hRight .content .newEmailPush ul {
+  padding-bottom: 0;
+}
+.hRight .content .newEmailPush ul > li {
+  line-height: 45px !important;
+}
+.hRight .content .editOrderSm {
+  height: 1000px;
+}
+.hRight .content .editOrderSm ul > li {
+  line-height: 55px !important;
+}
+.hRight .content .editOrderSm ul > li .complet {
+  width: 600px !important;
+}
+.hRight .content .editOrderSm ul > li span {
+  line-height: 45px;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer {
+  width: 604px !important;
+  border: 2px solid #2ecc71 ;
+  margin: 10px 0 0 52px;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer div {
+  width: 100%;
+  border-bottom: 2px solid #2ecc71 ;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer div span > i {
+  width: 600px !important;
+  text-align: center !important;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer .demo-col {
+  float: none;
+  margin: 0px 0 0 0px;
+  width: 600px;
+  height: 200px;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer .demo-col .complet {
+  border: none;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer .c-logo {
+  text-align: center;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer .c-ewm {
+  border-top: 2px solid #2ecc71 ;
+  height: 150px;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer .c-ewm .ybz-ewm {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ff0000;
+  margin: 43px 0  0 250px ;
+}
+.hRight .content .editOrderSm .txtarea-cx .txt-footer .c-version {
+  height: 50px;
+  border-bottom: 0;
+}
+.hRight .content .editOrderSm .txtarea-cx .complet {
+  height: 200px;
+}
+.hRight .content .editOrderSm .submit {
+  margin: 300px 0 0 230px;
+  line-height: 70px;
+}
+.hRight .content .wxalipaySet .list ul .move {
+  margin-left: -20px;
+}
+.hRight .content .wxalipaySet .list ul .order {
+  margin: 18px -20px;
+}
+.hRight .content .wxalipaySet .list ul > li > span > .i-font {
+  width: 200px !important;
+}
+.hRight .content .wxalipaySet .list ul > li > span > .pay-key {
+  width: 150px;
+  margin: -39px 0 0 34px;
+}
+.hRight .content .messageServe .list .slt-float > .input-lg {
+  margin-left: 210px;
+}
+.hRight .content .messageServe .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .messageServe .list > ul > li:nth-of-type(1) span:nth-of-type(2) i {
+  text-align: left !important;
+  padding-left: 20px;
+}
+.hRight .content .newMessagePush .list .slt-float > .input-lg {
+  margin-left: 210px;
+}
+.hRight .content .newMessagePush .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .editMessage {
+  height: 0 !important;
+}
+.hRight .content .editMessage .list > ul > li:nth-of-type(2) span {
+  margin-right: 52px;
+}
+.hRight .content .editMessage .submit {
+  margin-top: 10px;
+  line-height: 70px;
+}
+.hRight .content .wxSet .header h2 {
+  float: left;
+}
+.hRight .content .wxSet .header .btn {
+  margin-left: 36px;
+}
+.hRight .content .wxSet .header .wx-btn {
+  margin: 5px 0 0 36px;
+}
+.hRight .content .wxSet ul {
+  padding-bottom: 0px;
+}
+.hRight .content .wxSet ul > li:last-child {
+  margin: 10px 0;
+}
+.hRight .content .wxSet ul > li .l-radio {
+  margin-left: 95px !important;
+}
+.hRight .content .wxSet ul > li span .load {
+  line-height: 16px;
+  margin-top: -14px;
+}
+.hRight .content .wxSet .submit {
+  margin-top: 20px;
+}
+.hRight .content .wxMenuManage .table-bordered > tbody > tr > td .form-control {
+  display: inline-block;
+}
+.hRight .content .wxMenuManage .table-bordered > tbody > tr > td .input-sm {
+  background-color: #e2e2e2;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #e2e2e2;
+}
+.hRight .content .wxMenuManage .table-bordered > thead > tr > th:nth-of-type(3) {
+  width: 240px;
+  text-align: center;
+}
+.hRight .content .wxMenuManage .table-bordered > tbody > tr > td:nth-of-type(3) {
+  width: 240px !important;
+  text-align: center;
+}
+.hRight .content .wxMenuManage .table-bordered > tbody > tr > td:nth-of-type(3) .input-sm {
+  width: 200px;
+}
+.hRight .content .wxMenuManage .table-bordered > tbody > tr > td:nth-of-type(3) span {
+  margin-right: 10px;
+}
+.hRight .content .wxMenuManage .table-bordered > tbody > tr > td:nth-of-type(4) {
+  text-align: center !important;
+}
+.hRight .content .addRule .list li > span {
+  line-height: 45px;
+}
+.hRight .content .addRule .list ul li {
+  margin-bottom: 19px;
+}
+.hRight .content .addRule .list ul li:nth-of-type(2) .input-lg {
+  margin-left: 52px;
+}
+.hRight .content .addRule .list ul .hf-li .input-lg {
+  margin-right: 52px;
+}
+.hRight .content .addRule .list ul .ipt-radio {
+  margin: -30px 0px 0px 52px;
+}
+.hRight .content .addRule .list ul .img-li {
+  margin: 10px 0;
+}
+.hRight .content .addRule .list ul .img-li .form-group > .fileinput-new > div > span .no-file {
+  text-align: left ;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.hRight .content .addRule .list ul .img-li .form-group > .fileinput-new > div > span span {
+  color: #fff !important;
+}
+.hRight .content .focusSet .list ul > li:nth-of-type(1) span:nth-of-type(2) i {
+  margin-left: -64px;
+}
+.hRight .content .updatePassword .list ul {
+  padding-bottom: 0px;
+}
+.hRight .content .updatePassword .list ul .adLj > span {
+  line-height: 45px;
+}
+.hRight .content .adminLog .list ul > li {
+  margin-bottom: 20px;
+}
+.hRight .content .adminLog .list ul > li .input-lg {
+  margin-left: 52px;
+}
+.hRight .content .adminList .table-level .table-bordered > tbody > tr > td > .mlm {
+  margin: 0 5px ;
+}
+.hRight .content .adminList .table-level .table {
+  width: 91%;
+}
+.hRight .content .adminList .table-level .table-bordered > thead > tr > th:nth-of-type(4) {
+  width: 14%;
+  text-align: center;
+}
+.hRight .content .adminList .table-level .table-bordered > tbody > tr > td:nth-of-type(4) {
+  width: 14%;
+  text-align: center;
+}
+.hRight .content .addAdmin .list ul {
+  padding-bottom: 0;
+}
+.hRight .content .addAdmin .list ul li:nth-of-type(4) .input-lg {
+  margin-left: 52px;
+}
+.hRight .content .usersManages .table-level {
+  width: 1090px;
+}
+.hRight .content .usersManages .table-level .table-bordered > tbody > tr > td > .mlm {
+  margin: 0 10px ;
+}
+.hRight .content .addUsers {
+  overflow: hidden;
+}
+.hRight .content .addUsers .lt-info {
+  height: 2000px;
+}
+.hRight .content .addUsers .lt-info ul {
+  padding-bottom: 0;
+}
+.hRight .content .addUsers .lt-info .txtarea-cx span {
+  float: left;
+  margin-top: 24px;
+}
+.hRight .content .addUsers .lt-info .txtarea-cx .demo-col {
+  float: left;
+}
+.hRight .content .addUsers .lt-info .txtarea-cx .demo-col .form-control {
+  width: 410px !important;
+  height: 150px;
+}
+.hRight .content .addUsers .lt-info .thrd-li .first-cek {
+  margin: 40px 0 0 -158px !important;
+}
+.hRight .content .addUsers .lt-info .thrd-li .group-cek {
+  margin-bottom: 0;
+  padding: 10px 0 20px 0px;
+  border-bottom: 2px solid #eeeeee;
+}
+.hRight .content .addUsers .lt-info .thrd-li .group-cek .cb-title {
+  font-size: 16px;
+}
+.hRight .content .addUsers .lt-info .thrd-li .group-cek .checkbox {
+  margin: 5px 0 0 210px;
+}
+.hRight .content .addUsers .lt-info .thrd-li .group-cek .tit-list {
+  margin: 10px 0 0 210px;
+  width: 500px;
+}
+.hRight .content .addUsers .lt-info .thrd-li .group-cek .tit-list li {
+  height: 30px;
+}
+.hRight .content .addUsers .lt-info .thrd-li .group-cek .tit-list li .lb {
+  margin: 3px 0 0 30px;
+  float: left;
+}
+.hRight .content .addUsers .submit {
+  margin-top: 40px;
+}
+.hRight .modal-dialog {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 2%;
+  width: 100%;
+  height: 100%;
+}
+.hRight .modal-dialog .modal-content {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-left: -450px;
+  width: 700px;
+}
+.hRight .modal-dialog .modal-content .modal-header {
+  padding: 10px 20px;
+}
+.hRight .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 20px;
+}
+.hRight .modal-dialog .modal-content .modal-footer .btn {
+  padding: 10px 10px;
+}
+.hRight .modal-dialog .modal-content .modal-footer .btn-default {
+  text-align: center;
+  background: #48c9b0 ;
+}
+.hRight .modal-dialog .modal-content .modal-footer .btn-primary {
+  text-align: center;
+  background: #bdc3c7;
+}
+.hRight .modal-dialog .modal-content .modal-footer .btn-wide {
+  min-width: 100px;
+}
+.hRight .modal-dialog .modal-content .modal-footer .fui-check-circle {
+  color: #fff;
+  padding-right: 4px;
+}
+.hRight .modal-dialog .modal-content .modal-footer .fui-arrow-right {
+  color: #fff;
+}
+.hRight .ptl {
+  padding-top: 0 !important;
+}
+@media (min-width: 769px) {
+  .hLeft {
+    overflow-x: hidden;
+  }
+  .hLeft .navBtn {
+    width: 180px !important;
+    cursor: pointer;
+    position: relative;
+  }
+  .hLeft .navBtn div:before {
+    font-family: Flat-UI-Pro-Icons;
+    font-style: normal;
+    color: #aeb9c2;
+    content: "\e61a";
+    -webkit-transition: color .25s linear;
+    transition: color .25s linear;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+  }
+  .hLeft .navBtn .btnIcon {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 16px;
+    background: #3f4a57;
+    border: none;
+    display: none;
+  }
+  .hLeft .navBtn .btnIcon2 {
+    width: 45px;
+    height: 100%;
+    margin: 0  66.5px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    transform: rotate(90deg);
+  }
+  .hLeft ul li > div {
+    height: 40px;
+    background: #293038;
+    position: relative;
+    z-index: 1;
+  }
+  .hLeft ul li > div .maskDiv {
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 12;
+    display: none;
+  }
+  .hLeft ul li > div span {
+    color: white;
+    display: block;
+    line-height: 40px;
+    float: left;
+    font-size: 14px !important;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+  }
+  .hLeft ul li > div span:nth-of-type(1) {
+    width: 47px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+  .hLeft ul li > div span:nth-of-type(2) {
+    text-align: left;
+    width: 100px;
+    /* margin-left: -18px; */
+  }
+  .hLeft ul li > div span:nth-of-type(3) {
+    width: 28px;
+    text-align: left;
+  }
+  .hLeft ul li .children {
+    display: none;
+    position: relative;
+  }
+  .hLeft ul li .children li div {
+    background: #37424f;
+  }
+  .hLeft ul li .children li div span {
+    margin-left: 47px;
+    width: 150px;
+    font-size: 14px !important;
+    text-align: left;
+  }
+  .hLeft ul li .children li div span a{
+    color:#fff!important;
+  }
+  .hLeft ul li .children li .iCurrt {
+    background: #1abc9c;
+  }
+  .hLeft ul > li {
+    cursor: pointer;
+    /*margin-bottom: 1px;*/
+  }
+  .hLeft ul > li:last-child {
+    margin-bottom: 0;
+  }
+  .hLeft ul,
+  .hLeft li {
+    width: 180px !important;
+  }
+  .hRight {
+    position: relative;
+    left: 180px;
+    top: 0px;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .hRight .rightTop {
+    height: 30px;
+    background: #32a5ff;
+  }
+  .hRight .rightTop ul {
+    margin-bottom: 0;
+    height: 30px;
+    margin-left: 28px;
+  }
+  .hRight .rightTop ul li {
+    height: 30px;
+    display: inline-block;
+  }
+  .hRight .rightTop ul li a {
+    font-size: 14px;
+    color: black;
+    line-height: 30px;
+    display: block;
+    height: 30px;
+  }
+  .hRight .rightTop ul li a:after {
+    padding: 0 20px;
+    content: ">";
+    color: black;
+  }
+
+  .hRight .rightTop ul li:last-child a:after {
+    content: "";
+  }
+  .hRight .rightTop li a {
+    font-size: 14px;
+    color: black;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .hRight .rightTop li a:after {
+    content: ">";
+    color: black;
+  }
+  .hRight .ptl {
+    padding-top: 0 !important;
+  }
+  .hRight .content .page-header {
+    margin: 0;
+    padding: 20px 0 10px 28px !important;
+    margin-bottom: 40px;
+  }
+  .hRight .content .page-header button {
+    margin-left: 67px;
+    width: 135px;
+  }
+  .hRight .content form ul {
+    margin-bottom: 0;
+    position: relative;
+    padding-bottom: 130px;
+  }
+  .hRight .content form ul li > div {
+    float: left;
+  }
+  .hRight .content form ul li .form-group {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* Firefox */
+    -webkit-box-sizing: border-box;
+    /* Safari */
+  }
+  .hRight .content form ul li .form-group input[type=text],
+  .hRight .content form ul li .form-group select {
+    width: 300px;
+  }
+  .hRight .content form ul li .form-group .cxdate {
+    width: 150px !important;
+  }
+  .hRight .content form ul li .form-group .radio {
+    width: auto;
+    float: left;
+    margin-right: 40px;
+  }
+  .hRight .content form ul li .form-group .checkbox {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .hRight .content form ul li .form-group .icon-unchecked:before {
+    color: #bdc3c7;
+  }
+  .hRight .content form ul li .form-group .input-group {
+    width: 150px;
+  }
+  .hRight .content form ul li .form-group .otherImg {
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    width: 220px;
+    color: black;
+    padding: 0;
+    cursor: pointer;
+  }
+  .hRight .content form ul li .upload {
+    clear: both;
+    margin-left: 160px;
+    width: 880px;
+  }
+  .hRight .content form ul li .upload > div {
+    float: left;
+    margin-right: 20px;
+  }
+  .hRight .content form ul li .spinfo {
+    width: 670px;
+    height: 95px;
+  }
+  .hRight .content form ul li .spinfodetailed {
+    width: 670px;
+    height: 240px;
+    margin-top: 20px;
+  }
+  .hRight .content form ul li .cx > label,
+  .hRight .content form ul li .cx > div {
+    float: left;
+  }
+  .hRight .content form ul li .cx .fgf {
+    line-height: 45px;
+    margin: 0 10px;
+  }
+  .hRight .content form ul li .cx .focus span > .btn {
+    border: 2px solid #2ecc71;
+    border-right: 0;
+  }
+  .hRight .content form ul li .cx .focus .cxdate {
+    border: 2px solid #2ecc71;
+  }
+  .hRight .content form ul li .fileinput span {
+    color: white;
+  }
+  .hRight .content form ul li .classification {
+    margin: -45px 0 20px 160px;
+  }
+  .hRight .content form ul li .classification select {
+    width: 140px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .hRight .content form ul li .form-lable {
+    width: 160px;
+    font-size: 14px;
+    line-height: 45px;
+    padding-right: 40px;
+    text-align: right;
+  }
+  .hRight .content form ul li .unit {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 45px;
+    margin-left: 15px;
+  }
+  .hRight .content form ul .attribute {
+    margin-top: 20px;
+  }
+  .hRight .content form ul li:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  .hRight .content form ul .submit {
+    width: 100%;
+    height: 120px;
+    background: #ecf0f1;
+    position: absolute;
+    bottom: -15px;
+  }
+  .hRight .content form ul .submit input {
+    margin: 39.5px 0 0 24px;
+    width: 180px;
+  }
+  .hRight .content form .attributeSet > div {
+    clear: both;
+  }
+  .hRight .content form .attributeSet > div > div {
+    display: inline-block;
+  }
+  .hRight .content form .attributeSet .alert {
+    margin-left: 30px;
+    padding: 30px 100px 30px 24px;
+    width: 800px;
+  }
+  .hRight .content form .attributeSet .attributeSetBox {
+    margin-left: 165px;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addattribute {
+    width: 215px;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addattribute > div {
+    display: inline-block;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addattribute .otherImg {
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    width: 220px;
+    color: black;
+    padding: 0;
+    cursor: pointer;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addattribute2 {
+    width: 300px !important;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addattribute2 > div {
+    width: 300px  !important;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addorj {
+    width: 300px;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addorj > div {
+    width: 120px !important;
+    margin-right: 60px;
+    float: left;
+  }
+  .hRight .content form .attributeSet .attributeSetBox .addorj > div:last-child {
+    margin-right: 0;
+  }
+  .hRight .content form .attributeSet .addFirst {
+    margin-left: 63px;
+  }
+}
+.iconfont {
+	color: #aeb9c2 !important;
+}
+.popover.right{
+	margin-left: 47px !important;
+}

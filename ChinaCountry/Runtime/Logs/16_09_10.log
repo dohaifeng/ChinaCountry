@@ -1,0 +1,219 @@
+[ 2016-09-10T09:22:31+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cc_advertising` [ RunTime:0.059004s ]
+SQL: SELECT `id`,`title`,`picture`,`hret` FROM `cc_advertising` LIMIT 3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.066004s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 1 ) LIMIT 3   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 2 ) LIMIT 6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.155009s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.031002s ]
+SQL: SELECT `title`,`keyword`,`description` FROM `cc_site_information`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-10T09:22:39+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cc_advertising` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`picture`,`hret` FROM `cc_advertising` LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 1 ) LIMIT 3   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 2 ) LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.005000s ]
+SQL: SELECT `title`,`keyword`,`description` FROM `cc_site_information`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-10T09:22:41+08:00 ] ::1 /chinacountry/index.php/home/dynamic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_news` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\wamp\www\ChinaCountry\ChinaCountry\Home\Controller\DynamicController.class.php 第 23 行.
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`times`,`file_url` FROM `cc_video` WHERE ( `file_url` <> '' ) ORDER BY times desc LIMIT 5   [ RunTime:0.076005s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.008000s ]
+SQL: SELECT `title` FROM `cc_site_information`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-10T09:22:43+08:00 ] ::1 /chinacountry/index.php/home/group/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`times`,`file_url` FROM `cc_video` WHERE ( `file_url` <> '' ) ORDER BY times desc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.004000s ]
+SQL: SELECT `title` FROM `cc_site_information`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-10T09:22:44+08:00 ] ::1 /chinacountry/index.php/home/contact/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`times`,`file_url` FROM `cc_video` WHERE ( `file_url` <> '' ) ORDER BY times desc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.003000s ]
+SQL: SELECT `title` FROM `cc_site_information`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T09:22:46+08:00 ] ::1 /chinacountry/index.php/home/foreshow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_video` WHERE ( `column_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail`,`introduce` FROM `cc_video` WHERE ( `column_id` = 1 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`times`,`file_url` FROM `cc_video` WHERE ( `file_url` <> '' ) ORDER BY times desc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.003001s ]
+SQL: SELECT `title` FROM `cc_site_information`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T09:22:47+08:00 ] ::1 /chinacountry/index.php/home/retrospect/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_video` WHERE ( `column_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail`,`introduce` FROM `cc_video` WHERE ( `column_id` = 2 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.003001s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`times`,`file_url` FROM `cc_video` WHERE ( `file_url` <> '' ) ORDER BY times desc LIMIT 5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.005000s ]
+SQL: SELECT `title` FROM `cc_site_information`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-10T09:22:48+08:00 ] ::1 /chinacountry/index.php/home/introduce/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`title`,`times`,`file_url` FROM `cc_video` WHERE ( `file_url` <> '' ) ORDER BY times desc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.004000s ]
+SQL: SELECT `title` FROM `cc_site_information`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

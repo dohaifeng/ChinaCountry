@@ -1,0 +1,14 @@
+@import url("./public.css");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-7-6, 10:47:12
+    Author     : feng
+*/
+
+.table tr td .inputw {width: 150px;display: inline-block;}
+.table tr td .inputh {height: 30px;}
+.table{width: 1100px;}

@@ -1,0 +1,81 @@
+#carousel-example-generic {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.pro-dm {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.textRow {
+    padding: 5px 0;
+    overflow: hidden;
+    border-bottom: 1px dotted #dddddd;
+    height: 28px;
+}
+.claBottom {
+    margin-top: 0;
+    position: relative;
+    left: 2px;
+}
+.pro-fenye {
+    background: #fff;
+    height: 58px;
+}
+.pro-fenye ol {
+    width: 190px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.pro-fenye ol li {
+    float: left;
+    padding: 1px 6px;
+    color: #8c8c8c;
+}
+.pro-fenye ol li a {
+    color: #5e5e5e;
+}
+.placeH.classify {
+    height: 30px;
+    background: #ffdecc;
+    margin-top: 0;
+}
+.pagin {
+    position: relative;
+    left: 2px;
+    overflow: hidden;
+    background: #fff;
+    padding:0 20px 20px 0;
+}
+.pagin div {
+    background: #fff;
+    min-width: 100px;
+    margin:0 auto;
+    float: right;
+}
+.prev,
+.num,
+.next{
+    color: #333;
+    padding: 3px 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.current {
+    background: #ff5a00;
+    color: #fff;
+    padding: 3px 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.prev:hover,
+.num:hover,
+.next:hover {
+    background: #ff5a00;
+    color: #fff;
+}
+@media (max-width: 767px) {
+
+}

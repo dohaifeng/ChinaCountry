@@ -1,0 +1,77 @@
+.pro-video .bor {
+    border-bottom: 1px dotted #8c8c8c;
+    clear: both;
+    margin-bottom: 0;
+    width:100%;
+}
+.pro-video.foreshow {
+    padding-top: 50px;
+}
+.classbottom {
+    margin-top: 0;
+}
+.claBottom {
+    margin-top: 0;
+    position: relative;
+    left: 2px;
+}
+.pro-fenye {
+    background: #fff;
+    height: 96px;
+}
+.pro-fenye ol {
+    width: 190px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+.pro-fenye ol li {
+    float: left;
+    padding: 1px 6px;
+    color: #8c8c8c;
+}
+.pro-fenye ol li a {
+    color: #5e5e5e;
+}
+.br {
+    height: 17px;
+}
+.float-left.indexVideo span {
+    height: 17px;
+}
+.pagin {
+    position: relative;
+    left: 2px;
+    overflow: hidden;
+    background: #fff;
+    padding:20px 20px 20px 0;
+}
+.pagin div {
+    background: #fff;
+    min-width: 100px;
+    margin:0 auto;
+    float: right;
+}
+.prev,
+.num,
+.next{
+    color: #333;
+    padding: 3px 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.current {
+    background: #ff5a00;
+    color: #fff;
+    padding: 3px 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.prev:hover,
+.num:hover,
+.next:hover {
+    background: #ff5a00;
+    color: #fff;
+}

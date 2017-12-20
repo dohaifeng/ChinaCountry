@@ -1,0 +1,30 @@
+[ 2017-12-05T16:54:14+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1049): Unknown database 'chinacountry' E:\wamp\www\ChinaCountry\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Unknown database 'chinacountry'
+
+[ 2017-12-05T16:54:17+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1049): Unknown database 'chinacountry' E:\wamp\www\ChinaCountry\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Unknown database 'chinacountry'
+
+[ 2017-12-05T16:54:20+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1049): Unknown database 'chinacountry' E:\wamp\www\ChinaCountry\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Unknown database 'chinacountry'
+

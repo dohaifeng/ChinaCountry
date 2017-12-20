@@ -1,0 +1,43 @@
+/*
+Copyright(c)2015 All rights reserved.
+@Licenced  http://www.w3.org
+@Author  LiuTian<1538731090@qq.com> liutian_jiayi
+@Create on 2016-3-22 16:15:15
+@Version 1.0
+*/
+/* 
+    Created on : 2016-3-22, 16:15:15
+    Author     : Administrator
+*/
+table tr td:last-child {
+	font:13px Arial;
+}
+.back {
+	display:inline-block;
+	width:15px;
+	height:16px;
+	float:left;
+	background:url("../Images/title.png") no-repeat -145px -30px;
+}
+.edit{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	float:left;
+	background:url("../Images/title.png") no-repeat -80px -28px;
+}
+.remove{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	float:left;
+	background:url("../Images/title.png") no-repeat -302px -28px;
+}
+
+.table tr td .checkboxW,
+.table tr td table td .checkboxW{
+    width: 180px;
+    padding: 2px 2px 2px 25px;
+    text-align: left;
+}
+

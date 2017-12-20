@@ -1,0 +1,57 @@
+
+.pro-footer.pro-new {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.textRow {
+    height: 27px;
+    padding: 5px 0;
+    overflow: hidden;
+    border-bottom: 1px dotted #dddddd;
+}
+.claBottom {
+    margin-top: 0;
+    position: relative;
+    left: 2px;
+}
+.pro-fenye {
+    background: #fff;
+    height: 57px;
+}
+.pro-fenye ol {
+    width: 190px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.pro-fenye ol li {
+    float: left;
+    padding: 1px 6px;
+    color: #8c8c8c;
+}
+.pro-fenye ol li a {
+    color: #5e5e5e;
+}
+.placeH {
+    height: 30px;
+    background: #ffdecc;
+    margin-top: 0;
+}
+.searxhTitle {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.larg {
+    font-size: 17px;
+}
+.radiu {
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    color: #ff5a00;
+    margin-right: 10px;
+    min-width: 50px;
+    height: 19px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

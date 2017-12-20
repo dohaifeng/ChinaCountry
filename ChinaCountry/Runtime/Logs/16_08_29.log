@@ -1,0 +1,130 @@
+[ 2016-08-29T16:42:54+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cc_advertising` [ RunTime:0.055003s ]
+SQL: SELECT `id`,`title`,`picture`,`hret` FROM `cc_advertising` LIMIT 3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.096006s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 1 ) LIMIT 3   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 2 ) LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.057004s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.062004s ]
+SQL: SELECT `title`,`keyword`,`description` FROM `cc_site_information`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.413024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.413024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2016-08-29T16:43:00+08:00 ] ::1 /ChinaCountry/admin
+ERR: Cron:测试定时任务1 Runat 2016-08-29 16:43:00 Use 0.898051 s 
+
+[ 2016-08-29T16:43:00+08:00 ] ::1 /ChinaCountry/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:00+08:00 ] ::1 /chinacountry/index.php/admin/login/logform.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:02+08:00 ] ::1 /chinacountry/index.php/admin/login/startcaptchaservlet/t/1472460180.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behavior\CronRunBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behavior\ViewBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-29T16:43:08+08:00 ] ::1 /chinacountry/index.php/Admin/Login/logTodo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:08+08:00 ] ::1 /chinacountry/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:11+08:00 ] ::1 /chinacountry/index.php/admin/column/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:15+08:00 ] ::1 /chinacountry/index.php/admin/news/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:18+08:00 ] ::1 /chinacountry/index.php/admin/video/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:20+08:00 ] ::1 /chinacountry/index.php/admin/advertising/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-29T16:43:22+08:00 ] ::1 /chinacountry/index.php/admin/auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:43:30+08:00 ] ::1 /chinacountry/index.php/admin/role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-29T16:43:32+08:00 ] ::1 /chinacountry/index.php/admin/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-29T16:43:35+08:00 ] ::1 /chinacountry/index.php/admin/settings/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-29T16:43:37+08:00 ] ::1 /chinacountry/index.php/admin/bak/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-29T16:44:49+08:00 ] ::1 /chinacountry/index.php/admin/video/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:44:53+08:00 ] ::1 /chinacountry/index.php/Admin/Video/edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:44:57+08:00 ] ::1 /chinacountry/index.php/admin/auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-29T16:45:02+08:00 ] ::1 /chinacountry/index.php/admin/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-7-4, 16:37:41
+    Author     : feng
+*/
+
+.inputW {
+    width: 290px;
+}
+.font-size15{
+    font-size: 15px;
+}
+.margin-botton{
+    margin-bottom: 10px;
+}
+
+.subb{
+    margin-top: 8px; 
+    margin-left: 3px;
+    height: 40px;
+    width: 280px!important;
+    background-color: #F7A81B!important;
+    font-weight: bold;
+}
+.red{
+    width: 363px;
+    height: 404px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 363px;
+    transform: translateY(-50%);
+    border: 1px #fff solid;
+    background: rgba(256,256,256,0.3);
+}
+
+.Login{
+    width: 300px;
+    height: 200px;
+    margin: 102px auto;
+}
+
+.charLogin{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    left: 25%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

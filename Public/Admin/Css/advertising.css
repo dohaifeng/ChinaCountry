@@ -1,0 +1,30 @@
+@import url("./public.css");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-7-28, 14:14:22
+    Author     : feng
+*/
+
+.pictureW{width: 90px;}
+
+.table [class*="fui-"]{
+    color: #FFF;
+}
+
+.select2-chosen{
+    color: #FFF;
+}
+
+.fileinput-new {
+    color: #FFF;
+}
+
+.fileinput-exists{
+    color : #fff;
+}
+
+img {width: 90px;}

@@ -1,0 +1,140 @@
+[ 2017-03-21T16:12:48+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014068s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\wamp\www\ChinaCountry\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-03-21T16:14:28+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\wamp\www\ChinaCountry\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-03-21T16:14:29+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+NOTIC: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\wamp\www\ChinaCountry\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-03-21T16:14:45+08:00 ] ::1 /ChinaCountry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `cc_advertising` [ RunTime:0.012025s ]
+SQL: SELECT `id`,`title`,`picture`,`hret` FROM `cc_advertising` LIMIT 3   [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `cc_video` [ RunTime:0.012261s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 1 ) LIMIT 3   [ RunTime:0.000931s ]
+SQL: SELECT `id`,`title`,`date`,`thumbnail` FROM `cc_video` WHERE ( `column_id` = 2 ) LIMIT 6   [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `cc_news` [ RunTime:0.014886s ]
+SQL: SELECT `id`,`title`,`date` FROM `cc_news` ORDER BY id desc LIMIT 10   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `cc_site_information` [ RunTime:0.012491s ]
+SQL: SELECT `title`,`keyword`,`description` FROM `cc_site_information`  [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003280s ]
+
+[ 2017-03-21T16:15:16+08:00 ] ::1 /ChinaCountry/index.php/admin
+ERR: Cron:测试定时任务1 Runat 2017-03-21 16:15:16 Use 0.357228 s 
+
+[ 2017-03-21T16:15:16+08:00 ] ::1 /ChinaCountry/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-03-21T16:15:16+08:00 ] ::1 /chinacountry/index.php/admin/login/logform.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-03-21T16:15:16+08:00 ] ::1 /chinacountry/index.php/admin/login/startcaptchaservlet/t/1490084116.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Admin\Behavior\CronRunBehavior [ RunTime:0.005370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: Run Admin\Behavior\ViewBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003795s ]
+
+[ 2017-03-21T16:15:29+08:00 ] ::1 /chinacountry/index.php/Admin/Login/logTodo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-03-21T16:15:29+08:00 ] ::1 /chinacountry/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-03-21T16:15:34+08:00 ] ::1 /chinacountry/index.php/admin/video/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-03-21T16:15:38+08:00 ] ::1 /chinacountry/index.php/admin/video/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-03-21T16:29:48+08:00 ] ::1 /chinacountry/index.php/admin/video/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-03-21T16:29:53+08:00 ] ::1 /chinacountry/index.php/admin/video/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-03-21T16:32:34+08:00 ] ::1 /chinacountry/index.php/admin/video/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-03-21T16:32:37+08:00 ] ::1 /chinacountry/index.php/admin/video/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-03-21T16:54:40+08:00 ] ::1 /chinacountry/index.php/admin/video/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-03-21T16:54:53+08:00 ] ::1 /chinacountry/index.php/admin/video/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-03-21T16:54:59+08:00 ] ::1 /chinacountry/index.php/admin/video/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+

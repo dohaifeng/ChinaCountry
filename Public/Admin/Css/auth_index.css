@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-7-20, 14:10:25
+    Author     : feng
+*/
+
+.table font .margin {margin: 15px;}
+
+p{
+    font:14px/30px Arial,宋体,微软雅黑;
+}
+.form-control{
+    width: 50%;
+    display:inline-block;
+}
+
+.table {width: 1100px;}
